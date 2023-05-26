@@ -1,0 +1,248 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+hr {
+    color: #ffffff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #3A5668;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 10px 50px;
+    margin-top: 90px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 35%;
+}
+
+.footer-distributed .footer-left .img-footer {
+    padding-left: 60px;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px;
+    text-align: left;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center h3 {
+    color: #ffffff;
+    padding-left: 60px;
+    margin-bottom: 13px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #ffffff;
+    color: #3A5668;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center span {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer-distributed .footer-center p {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #ffffff;
+    vertical-align: middle;
+    padding-left: 65px;
+}
+
+.footer-distributed .footer-center a {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer-distributed .footer-center .privacy {
+    margin-top: 50px;
+}
+
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 25%;
+}
+
+.footer-distributed .footer-right h3 {
+    color: #ffffff;
+    padding-left: 60px;
+}
+
+
+.footer-distributed .footer-icons {
+    margin: 20px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #3A5668;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #57c6e4;
+    color: #ffffff;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+.footer-distributed .footer-right .footer-icons img {
+    padding: 0px;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+    .footer-distributed .footer-right h3 {
+
+        padding-left: 0px;
+    }
+
+    .footer-distributed .footer-center h3 {
+
+        padding-left: 0px;
+    }
+
+    .footer-distributed .footer-left .img-footer {
+        padding-left: 50px;
+    }
+
+    .footer-distributed .footer-company-name {
+        margin: 10px;
+    }
+
+    .footer-distributed .footer-center p {
+        margin: 0 0 auto;
+    }
+
+    .footer-distributed .footer-right .img {
+        padding: 0;
+    }
+}
