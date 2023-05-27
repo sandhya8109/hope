@@ -97,8 +97,8 @@ include('header.php');
       <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
           <a href="https://www.hopeability.com.au/">
-            <img src="https://www.hopeability.com.au/wp-content/uploads/2021/10/Artboard-1-blue@0.5x-2.png" alt=""
-              style="margin: 10px 50px 0 0;">
+            <img src="./img/image001.gif" alt="" style="margin: 10px 50px 0 0; width:120px;"" alt=""
+              style=" margin: 10px 50px 0 0;">
           </a>
           <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>

@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
@@ -47,7 +48,7 @@
             <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./landing.php">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item text-primary" aria-current="page">Services</li>
                 </ol>
@@ -57,12 +58,12 @@
     <!-- Page Header End -->
 
 
-     <!-- Service Start -->
-     <div class="container-xxl py-5">
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="section-title bg-white text-center text-primary px-3">Our Services</h1>
-                            </div>
+            </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item position-relative h-100">
@@ -72,7 +73,8 @@
                                 <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Development-Life Skills</h4>
-                                <p class="mb-0">Development of daily living and life skills focus on training and development activities.</p>
+                                <p class="mb-0">Development of daily living and life skills focus on training and
+                                    development activities.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -89,7 +91,8 @@
                             </div>
                             <h5 class="mb-3">
                                 Personal Activities </h4>
-                                                               <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable the participant to.</p>
+                                <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable
+                                    the participant to.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -105,7 +108,8 @@
                                 <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Assistance Life Tasks</h4>
-                                <p class="mb-0">This registration group incorporates assistance with or supervising tasks of daily life.</p>
+                                <p class="mb-0">This registration group incorporates assistance with or supervising
+                                    tasks of daily life.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -121,7 +125,8 @@
                                 <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h4>
-                                <p class="mb-0">We are passionate about helping you to be as independent as possible by providing safe and reliable ........</p>
+                                <p class="mb-0">We are passionate about helping you to be as independent as possible by
+                                    providing safe and reliable ........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -137,7 +142,8 @@
                                 <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Participation In Community, Social And Civic Activities</h4>
-                                <p class="mb-0">Being part of something beyond your front door is so important to living a fulfilling........</p>
+                                <p class="mb-0">Being part of something beyond your front door is so important to living
+                                    a fulfilling........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -154,7 +160,8 @@
                             </div>
                             <h5 class="mb-3">Household Task</h4>
                                 <br>
-                                <p class="mb-0">Having a clean and neat home environment is important for wellbeing........</p>
+                                <p class="mb-0">Having a clean and neat home environment is important for
+                                    wellbeing........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i

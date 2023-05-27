@@ -1,0 +1,31 @@
+.full{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap:20px;
+}
+.contact{
+    text-align: center;
+    padding: 20px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+.contact i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #274a84;
+}
+.contact h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.contact:hover{
+    background: #274a84;
+    color: #fff;
+    transform: scale(1.05);
+}
+.contact:hover i{
+    color: #fff;
+}
