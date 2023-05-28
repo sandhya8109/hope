@@ -62,7 +62,7 @@ include('header.php');
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav">
-            <a href="./landing.php" class="nav-item nav-link">Home</a>
+            <a href="./index.php" class="nav-item nav-link">Home</a>
             <a href="./service.php" class="nav-item nav-link">Our Services</a>
             <a href="./aboutus.php" class="nav-item nav-link">About</a>
             <a href="./mental.php" class="nav-item nav-link">Mental Health</a>

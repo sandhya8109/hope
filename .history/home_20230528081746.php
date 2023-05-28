@@ -23,7 +23,7 @@ include 'admin/db_connect.php';
         <h1 class="display-2 text-white mb-4 animated slideInDown">Work With us</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0" style="background-color:transparent; color:white;">
-                <li class="breadcrumb-item"><a href="./landing.php" style="color:#fff;">Home</a></li>
+                <li class="breadcrumb-item"><a href="./index.php" style="color:#fff;">Home</a></li>
                 <li class="breadcrumb-item"><a href="#" style="color:#fff;">Pages</a></li>
                 <li class="breadcrumb-item text-primary" aria-current="page" style="color:#fff;">Work with us</li>
             </ol>
@@ -62,22 +62,22 @@ include 'admin/db_connect.php';
             $desc = strtr(html_entity_decode($row['description']), $trans);
             $desc = str_replace(array("<li>", "</li>"), array("", ","), $desc);
             ?>
-            <div class="card vacancy-list" data-id="<?php echo $row['id'] ?>">
-                <div class="card-body">
-                    <h3><b class="filter-txt">
-                            <?php echo $row['position'] ?>
-                        </b></h3>
-                    <span><small>Needed:
-                            <?php echo $row['availability'] ?>
-                        </small></span>
-                    <hr>
+                <div class="card vacancy-list" data-id="<?php echo $row['id'] ?>">
+                    <div class="card-body">
+                        <h3><b class="filter-txt">
+                                <?php echo $row['position'] ?>
+                            </b></h3>
+                        <span><small>Needed:
+                                <?php echo $row['availability'] ?>
+                            </small></span>
+                        <hr>
 
 
-                    <!--  <hr class="divider border-dark" style="max-width: calc(80%)">-->
-                    <button class="btn" style="background-color:#274ae4; color:#fff;"> Apply Now</button>
+                        <!--  <hr class="divider border-dark" style="max-width: calc(80%)">-->
+                        <button class="btn" style="background-color:#274ae4; color:#fff;"> Apply Now</button>
+                    </div>
                 </div>
-            </div>
-            <br>
+                <br>
         <?php endwhile; ?>
     </div>
 </section>

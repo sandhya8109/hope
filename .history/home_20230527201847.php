@@ -25,7 +25,7 @@ include 'admin/db_connect.php';
             <h1 class="display-2 text-white mb-4 animated slideInDown">Work With us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="./landing.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item text-primary" aria-current="page">Workwithus</li>
                 </ol>
@@ -64,27 +64,27 @@ include 'admin/db_connect.php';
                     $desc = strtr(html_entity_decode($row['description']), $trans);
                     $desc = str_replace(array("<li>", "</li>"), array("", ","), $desc);
                     ?>
-                    <div class="card vacancy-list" data-id="<?php echo $row['id'] ?>">
-                        <div class="card-body">
-                            <h3><b class="filter-txt">
-                                    <?php echo $row['position'] ?>
-                                </b></h3>
-                            <span><small>Needed:
-                                    <?php echo $row['availability'] ?>
-                                </small></span>
+                        <div class="card vacancy-list" data-id="<?php echo $row['id'] ?>">
+                            <div class="card-body">
+                                <h3><b class="filter-txt">
+                                        <?php echo $row['position'] ?>
+                                    </b></h3>
+                                <span><small>Needed:
+                                        <?php echo $row['availability'] ?>
+                                    </small></span>
 
-                            <button> Apply Now</button>
-                            <style>
-                                .button {
-                                    color: #274a84;
-                                }
+                                <button> Apply Now</button>
+                                <style>
+                                    .button {
+                                        color: #274a84;
+                                    }
 
-                                .btn:hover: {
-                                    color: #57c6e4;
-                                }
-                            </style>
+                                    .btn:hover: {
+                                        color: #57c6e4;
+                                    }
+                                </style>
+                            </div>
                         </div>
-                    </div>
 
                 <?php endwhile; ?>
             </div>

@@ -1,6 +1,6 @@
 <?php
-include('nav.php')
-    ?>
+include('nav.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -354,7 +354,7 @@ include('nav.php')
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
-                <h1 class="section-title bg-white text-center text-primary px-3">Mission</h1>
+                <h1 class="section-title bg-white text-center text-primary px-3">
             </div>
             <div class="row g-5">
                 <br><br><br>
