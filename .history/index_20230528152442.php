@@ -300,9 +300,9 @@ include('nav.php');
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/service.jpg" alt="">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./assets/img/service.jpg"
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-1.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
@@ -316,11 +316,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/front-view-smiley-girl-woman-indoors.jpg" alt="">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/front-view-smiley-girl-woman-indoors.jpg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-2.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
@@ -333,74 +332,35 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/hope-ability-about.jpg" alt="">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/hope-ability-about.jpg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-3.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Assistance Life Tasks</a>
-                        <span>This registration group incorporates assistance with or supervising tasks of daily
-                            life.</span>
+                        <a class="d-block h5" href="">Business Target Market</a>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/pexels-photo-5068681.jpeg" alt="">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/pexels-photo-5068681.jpeg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Participation In Community, Social And Civic Activities</a>
-                        <span>Being part of something beyond your front door is so important to living a
-                            fulfilling........</span>
-                    </div>
-                </div>
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/full-shot-woman-with-crutches.jpg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/full-shot-woman-with-crutches.jpg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Assistance With Travel/Transport Arrangements</a>
-                        <span>We are passionate about helping you to be as independent as possible by providing safe and
-                            reliable ........</span>
-                    </div>
-
-                </div>
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/pexels-photo-7698665.jpeg" alt="">
-                        <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/pexels-photo-7698665.jpeg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
-                                    class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Household Task</a>
-                        <span>Having a clean and neat home environment is important for wellbeing........</span>
+                        <a class="d-block h5" href="">Social Marketing Strategy</a>
+                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!--Project End -->
@@ -414,7 +374,7 @@ include('nav.php');
                 <br><br><br>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-5 mb-5">Our Mission</h1>
-                    <p class="mb-3" style="text-align: start;">Our mission is to empower people with a disability to
+                    <p class="mb-3" style="text-align: center;">Our mission is to empower people with a disability to
                         engage in opportunities of
                         their choice in a supported and inclusive environment.</p>
 

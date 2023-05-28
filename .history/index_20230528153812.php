@@ -316,10 +316,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/front-view-smiley-girl-woman-indoors.jpg" alt="">
+                        <img class="img-fluid" src="./assets/img/Volunteer-helping-elderly-scaled.jpg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/front-view-smiley-girl-woman-indoors.jpg" data-lightbox="project"><i
+                                href="./assets/img/Volunteer-helping-elderly-scaled.jpg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
@@ -350,11 +350,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/pexels-photo-5068681.jpeg" alt="">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/pexels-photo-5068681.jpeg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
@@ -367,11 +366,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/full-shot-woman-with-crutches.jpg" alt="">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/full-shot-woman-with-crutches.jpg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
@@ -385,11 +383,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="./assets/img/pexels-photo-7698665.jpeg" alt="">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="./assets/img/pexels-photo-7698665.jpeg" data-lightbox="project"><i
-                                    class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/project-4.jpg"
+                                data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href=""><i
                                     class="fa fa-link"></i></a>
                         </div>
@@ -414,7 +411,7 @@ include('nav.php');
                 <br><br><br>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-5 mb-5">Our Mission</h1>
-                    <p class="mb-3" style="text-align: start;">Our mission is to empower people with a disability to
+                    <p class="mb-3" style="text-align: center;">Our mission is to empower people with a disability to
                         engage in opportunities of
                         their choice in a supported and inclusive environment.</p>
 

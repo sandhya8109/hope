@@ -540,8 +540,8 @@ progress {
 .display-5 {
     font-size: calc(1.425rem + 2.1vw);
     font-weight: 700;
-    line-height: 1.2;
-    color: #274a84;
+    line-height: 1.2
+    color:@274a84;
 }
 
 @media (min-width: 1200px) {

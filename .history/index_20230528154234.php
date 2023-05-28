@@ -414,7 +414,7 @@ include('nav.php');
                 <br><br><br>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="display-5 mb-5">Our Mission</h1>
-                    <p class="mb-3" style="text-align: start;">Our mission is to empower people with a disability to
+                    <p class="mb-3" style="text-align: center;">Our mission is to empower people with a disability to
                         engage in opportunities of
                         their choice in a supported and inclusive environment.</p>
 
