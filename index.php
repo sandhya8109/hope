@@ -433,7 +433,7 @@ include('nav.php');
                     <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
                     <a class="btn btn-primary py-3 px-5 "
                         style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
-                        href="./resigter.php">Refer a Participant</a>
+                        href="./refer.php">Refer a Participant</a>
                 </div>
             </div>
         </div>
@@ -496,7 +496,7 @@ include('nav.php');
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7902539402759!2d131.01108536954771!3d-12.505484499235527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0a311b353d393%3A0xda11542df27d0569!2s3%20Grumman%20Cres%2C%20Zuccoli%20NT%200832%2C%20Australia!5e0!3m2!1sen!2snp!4v1684496714930!5m2!1sen!2snp"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.285332767919!2d130.8573214148163!3d-12.430699591212349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc093e0f0095555%3A0xba956485c51af35!2s15%2F16%20Charlton%20Ct%2C%20Woolner%20NT%200820%2C%20Australia!5e0!3m2!1sen!2snp!4v1685378953191!5m2!1sen!2snp"
                         frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>

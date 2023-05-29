@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-gap:20px;
+    padding: 0px 100px 0 100px ;
 }
 .contact{
     text-align: center;
@@ -9,7 +10,7 @@
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-    background: transparent;
+    background: #274b8409;
     transition: transform 0.5s, background 0.5s;
 }
 .contact i{
@@ -27,5 +28,8 @@
     transform: scale(1.05);
 }
 .contact:hover i{
+    color: #fff;
+}
+.contact:hover h2{
     color: #fff;
 }
