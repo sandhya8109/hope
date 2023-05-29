@@ -19,7 +19,7 @@
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
@@ -71,7 +71,8 @@
                         <div class="container">
                             <div class="row justify-content-end">
                                 <div class="col-lg-7 text-end">
-                                    <p class="fs-4 text-white animated slideInLeft">Welcome to <strong>GrowMark</strong>
+                                    <p class="fs-4 text-white animated slideInLeft">Welcome to <strong>Hope
+                                            ability</strong>
                                     </p>
                                     <h1 class="display-1 text-white mb-5 animated slideInLeft">Ready to Grow Your
                                         Business</h1>
@@ -95,7 +96,7 @@
         </div>
     </div>
     <!-- Carousel End -->
-<!-- Aboutus -->
+    <!-- Aboutus -->
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -232,7 +233,7 @@
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="section-title bg-white text-center text-primary px-3">Our Services</h1>
-                            </div>
+            </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item position-relative h-100">
@@ -242,7 +243,8 @@
                                 <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Development-Life Skills</h4>
-                                <p class="mb-0">Development of daily living and life skills focus on training and development activities.</p>
+                                <p class="mb-0">Development of daily living and life skills focus on training and
+                                    development activities.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -259,7 +261,8 @@
                             </div>
                             <h5 class="mb-3">
                                 Personal Activities </h4>
-                                                               <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable the participant to.</p>
+                                <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable
+                                    the participant to.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -275,7 +278,8 @@
                                 <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Assistance Life Tasks</h4>
-                                <p class="mb-0">This registration group incorporates assistance with or supervising tasks of daily life.</p>
+                                <p class="mb-0">This registration group incorporates assistance with or supervising
+                                    tasks of daily life.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -291,7 +295,8 @@
                                 <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h4>
-                                <p class="mb-0">We are passionate about helping you to be as independent as possible by providing safe and reliable ........</p>
+                                <p class="mb-0">We are passionate about helping you to be as independent as possible by
+                                    providing safe and reliable ........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -307,7 +312,8 @@
                                 <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
                             </div>
                             <h5 class="mb-3">Participation In Community, Social And Civic Activities</h4>
-                                <p class="mb-0">Being part of something beyond your front door is so important to living a fulfilling........</p>
+                                <p class="mb-0">Being part of something beyond your front door is so important to living
+                                    a fulfilling........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -324,7 +330,8 @@
                             </div>
                             <h5 class="mb-3">Household Task</h4>
                                 <br>
-                                <p class="mb-0">Having a clean and neat home environment is important for wellbeing........</p>
+                                <p class="mb-0">Having a clean and neat home environment is important for
+                                    wellbeing........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -337,40 +344,41 @@
     </div>
     <!-- Service End -->
 
-<!-- Mission Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
-            <h1 class="section-title bg-white text-center text-primary px-3">Mission</h1>
-                   </div>
-        <div class="row g-5">
-            <br><br><br>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-
-                <p class="mb-3" style="text-align: center;">Our mission is to empower people with a disability to engage in opportunities of
-                    their choice in a supported and inclusive environment.</p>
-
-            </div>
-           
-        </div>
-    </div>
-</div>
-<!-- Mission End -->
-<!-- Registered NDIS-->
-<div style="background-color: #88bc6f;">
+    <!-- Mission Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="section-title bg-white text-center text-primary px-3">Mission</h1>
+            </div>
+            <div class="row g-5">
+                <br><br><br>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
 
-                <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
-                <a class="btn btn-primary py-3 px-5 "
-                    style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
-                    href="./resigter.php">Refer a Participant</a>
+                    <p class="mb-3" style="text-align: center;">Our mission is to empower people with a disability to
+                        engage in opportunities of
+                        their choice in a supported and inclusive environment.</p>
+
+                </div>
+
             </div>
         </div>
     </div>
-</div>
-<!--Registered /NDIS END-->
+    <!-- Mission End -->
+    <!-- Registered NDIS-->
+    <div style="background-color: #88bc6f;">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+
+                    <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
+                    <a class="btn btn-primary py-3 px-5 "
+                        style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
+                        href="./resigter.php">Refer a Participant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Registered /NDIS END-->
 
     <!-- Testimonial Start -->
     <div class="container-xxl pt-5">
@@ -415,61 +423,61 @@
     <!-- Testimonial End -->
 
 
-<!--contact-->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+    <!--contact-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
 
-            <h1 class="section-title bg-white text-center text-primary px-3">Looking For Advice?</h1>
-            <p class="mb-5">Call us on 1300 424 442 to talk about your needs. Or fill out the form below and our
-                Care Advisors will be in touch soon.</p>
-        </div>
-        <div class="row g-4">
-
-            <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <iframe class="position-relative rounded w-100 h-100"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                    frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+                <h1 class="section-title bg-white text-center text-primary px-3">Looking For Advice?</h1>
+                <p class="mb-5">Call us on 1300 424 442 to talk about your needs. Or fill out the form below and our
+                    Care Advisors will be in touch soon.</p>
             </div>
-            <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                <form>
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                <label for="name">Your Name</label>
+            <div class="row g-4">
+
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 150px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                <label for="email">Your Email</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                <label for="subject">Subject</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                    style="height: 150px"></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--End-->
+    <!--End-->
 
     <!-- Project Start
     <div class="container-xxl pt-5">
