@@ -57,15 +57,18 @@ include('nav.php')
     <div class="container-fluid">
         <h1 class="display-5 mb-4" style="font-size:2.5rem; ">Do You Know Someone Who Needs Help To Live Their Best
             Life?​</h1>
-        <p class="text-center" style="margin: 1.5rem 10rem 0 10rem;  font-size: large; ">"Know someone who could benefit
-            from our services? Refer them to us and help us make a
+        <p class="text-center">"Know someone who could benefit from our services? Refer them to us and help us make a
             difference in their lives. Your referral means a lot to us as we strive to extend our reach and provide
             exceptional support and care to more individuals. Thank you for considering recommending Hope Ability.”</p>
         </br>
-
+        <style>
+            {
+                margin: 1.5rem 10rem 0 10rem;
+                font-size: large;
+            }
+        </style>
         <h2 class="text-center" style="color: #274a84;">Please Fill In The Following Details</h2>
-        <p class="text-center" style="margin: 1.5rem 10rem 0 10rem;  font-size: large; ">All fields marked with <span
-                style="color: red;">*</span> are required and must be
+        <p class="text-center">All fields marked with <span style="color: red;">*</span> are required and must be
             filled.</p>
         <div id="multi-step-form-container">
             <!-- Form Steps / Progress Bar -->

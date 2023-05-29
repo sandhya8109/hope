@@ -32,7 +32,10 @@ h2 {
   margin-top: 3rem;
   
 }
-
+p{
+    margin: 1.5rem 10rem 0 10rem;
+    font-size: large;
+}
 label{
   font-weight: 500;
 }
