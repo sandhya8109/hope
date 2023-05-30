@@ -1,4 +1,7 @@
 <?php
+include('admin/db_connect.php');
+?>
+<?php
 include('nav.php');
 ?>
 <!DOCTYPE html>
@@ -47,60 +50,56 @@ include('nav.php');
 
     <!-- Carousel Start -->
     <div class="container-fluid px-0 mb-5">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="./assets/img/front-view-smiley-girl-woman-indoors.jpg"
-                        style="height:680px; background:rgba(24,29,56,.7);" alt="Image">
-                    <div class="carousel-caption" style=" background:rgba(24,29,56,.7);">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <?php
+            $i = 0;
+           
+
+            $result = mysqli_query($conn, "SELECT * FROM banner_management WHERE image !='' AND is_active = '1'");
+            while ($banner = mysqli_fetch_array($result)) {
+                $image1 = "admin/assets/img/" . $banner['image'];
+                ?>
+
+                <div class="carousel-item <?php echo ($i == 0) ? 'active' : ''; ?>">
+                    <img class="w-100" src="<?php echo $image1; ?>"
+                         style="height: 680px; background: rgba(24,29,56,.7);" alt="Image">
+                    <div class="carousel-caption" style="background: rgba(24,29,56,.7);">
                         <div class="container">
                             <div class="row justify-content-start">
                                 <div class="col-lg-7 text-start">
                                     <p class="fs-4 text-white animated slideInRight">Welcome to
                                         <strong>Hope Ability</strong>
                                     </p>
-                                    <h1 class="display-1 text-white mb-4 animated slideInRight">We Care With Respect
-                                    </h1>
-                                    <a href="./contact.php"
-                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">CLICK HERE
-                                        TO GET STARTED</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100"
-                        src="./assets/img/granddaughter-talking-with-her-grandmother-sitting-wheelchair-cheerful-concept-happy-family.jpg"
-                        style="height:680px;" alt="Image">
-                    <div class="carousel-caption" style=" background:rgba(24,29,56,.7);">
-                        <div class="container">
-                            <div class="row justify-content-end">
-                                <div class="col-lg-7 text-end">
-                                    <p class="fs-4 text-white animated slideInLeft">Welcome to <strong>Hope
-                                            Ability</strong>
-                                    </p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInLeft">Mental Health Services
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight"><?php echo $banner['title']; ?>
                                     </h1>
                                     <a href="./mental.php"
-                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">CLICK HERE
+                                       class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">CLICK HERE
                                         TO GET STARTED</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+                <?php
+                $i++;
+            }
+            ?>
+
         </div>
     </div>
+</div>
+
+<!-- Include necessary JavaScript libraries and initialize the carousel -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#header-carousel').carousel();
+    });
+</script>
+
     <!-- Carousel End -->
 
     <!-- About Start -->
