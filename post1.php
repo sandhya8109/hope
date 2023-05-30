@@ -53,9 +53,10 @@ include('nav.php')
     </div>
     <!-- Page Header End -->
 <!--content-->
+<div class="container" style="align-text: justify">
 <div class="row">
-        <h2>Daily Personal Activities</h2>
-        <div class="col-md-8">
+<h2>Daily Personal Activities</h2>
+        <div class="col-md-6">
             <p>We help with and/or supervise personal daily life tasks to enable you to live as autonomously as
                 possible. We provide individual support in a range of environments, including but not limited to, your
                 own home. We’ll assist you with your daily life, whether you only need a little help getting your day
@@ -74,14 +75,13 @@ include('nav.php')
                 <li><strong>Laundry and ironing.</strong></li>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <img class="img-fluid"
                 src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
                 alt="Volunteer">
-            <a href="./contact.php"><button class="btn btn-primary col-12">Get Started</button></a>
         </div>
     </div>
-
+</div>
 
 <!--content-->
    
