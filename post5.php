@@ -90,6 +90,7 @@ include('nav.php')
                 <li>Art gallery</li>
             </ul>
 </div>
+</div>
 <!--content-->
    
 <!-- Back to Top -->

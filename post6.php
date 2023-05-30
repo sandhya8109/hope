@@ -55,31 +55,30 @@ include('nav.php')
 <!--content-->
 <div class="container" style="text-align: justify;">
 <div class="row">
-
+       
         <div class="col-md-6">
-        <h2>Daily Personal Activities</h2>
-            <p>We help with and/or supervise personal daily life tasks to enable you to live as autonomously as
-                possible. We provide individual support in a range of environments, including but not limited to, your
-                own home. We'll assist you with your daily life, whether you only need a little help getting your day
-                started or more ongoing support. Our services are highly personalized to meet your unique requirements
-            </p>
+             <h2>Household Tasks</h2>
+            <p>Having a clean and neat home environment is important for wellbeing, and our friendly support staff can
+                help you with tasks such as cleaning, laundry, shopping, dishwashing, meal preparation and home
+                maintenance.</p>
+            <p>We provide domestic and personal assistance, as well as home maintenance assistance, to ensure that your
+                home is safe and accessible.</p>
             <ul>
-                <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
-                    or chair to wheelchair or toilet.</li>
-                <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from bed or chair to wheelchair or toilet.</li>
-                <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Cooking assistance and meal preparation.</strong></li>
-                <li><strong>Laundry and ironing.</strong></li>
+                <li><strong>Home maintenance:</strong>We can help you get to things that can be hard to reach, like
+                    changing light bulbs or smoke alarm batteries.</li>
+                <li><strong>Home Cleaning:</strong>Tidying, washing dishes and helping to maintain a clean home for you
+                    to relax in.</li>
+                <li><strong>Minor Repairs:</strong>Taking care of fixtures and fittings such as taps and paint chips
+                    that naturally wear out over time and require repairs and servicing.</li>
+                <li><strong>Gardening and Lawn Care:</strong>Keeping your garden and lawn healthy and looking great from
+                    season to season.</li>
+
             </ul>
         </div>
         <div class="col-md-6">
             <img class="img-fluid"
-                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
-                alt="Volunteer">
+                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/NDIS_Household_Tasks_image.webp"
+                alt="Volunteer" width="100%" height="100%">
         </div>
     </div>
 </div>
