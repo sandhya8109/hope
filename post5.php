@@ -55,35 +55,41 @@ include('nav.php')
 <!--content-->
 <div class="container" style="text-align: justify;">
 <div class="row">
-
+        
         <div class="col-md-6">
-        <h2>Daily Personal Activities</h2>
-            <p>We help with and/or supervise personal daily life tasks to enable you to live as autonomously as
-                possible. We provide individual support in a range of environments, including but not limited to, your
-                own home. We'll assist you with your daily life, whether you only need a little help getting your day
-                started or more ongoing support. Our services are highly personalized to meet your unique requirements
-            </p>
-            <ul>
-                <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
-                    or chair to wheelchair or toilet.</li>
-                <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from bed or chair to wheelchair or toilet.</li>
-                <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Cooking assistance and meal preparation.</strong></li>
-                <li><strong>Laundry and ironing.</strong></li>
-            </ul>
+        <h2>Participation In Community, Social And Civic Activities</h2>
+            <p style="font-size: 1.1rem">Being part of something beyond your front door is so important to living a fulfilling life. We are with
+                you every step of the way, helping you access all that your community has to offer. We partner with
+                other providers and community groups to offer you the widest variety of participation options. We
+                provide assistance with social & community participation based on your individual needs.</p>
+            <p style="font-size: 1.1rem">We focus on getting all our participants into the community. With introduction to a wide array of
+                activities our participants are always both mentally and physically fit. To make sure you have enjoyable
+                experience in your community we organise fun activities based on your interests. A customised plan will
+                be made for you and a timetable for your activities will be provided beforehand.</p>
+    
         </div>
         <div class="col-md-6">
             <img class="img-fluid"
-                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
-                alt="Volunteer">
+                src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Social-And-Civic-Activities.jpg"
+                alt="Volunteer" width="100%" height="100%">
         </div>
     </div>
+<br/>
+<div class="container-fluid" style="font-size: 1.2rem">
+<h5 style="font-weight: 10;">Our Activities Include</h5>
+            <ul>
+                <li>Activities based on your hobbies</li>
+                <li>Shopping trips</li>
+                <li>Holidays, trips, cruises</li>
+                <li>Movies/ theatres</li>
+                <li>Art gallery</li>
+                <li>Sporting Events</li>
+                <li>Visiting Friends and Family</li>
+                <li>Community Events and Activities</li>
+                <li>Programs to help you improve social skills</li>
+                <li>Art gallery</li>
+            </ul>
 </div>
-
 <!--content-->
    
 <!-- Back to Top -->

@@ -55,31 +55,28 @@ include('nav.php')
 <!--content-->
 <div class="container" style="text-align: justify;">
 <div class="row">
-
+        
         <div class="col-md-6">
-        <h2>Daily Personal Activities</h2>
-            <p>We help with and/or supervise personal daily life tasks to enable you to live as autonomously as
-                possible. We provide individual support in a range of environments, including but not limited to, your
-                own home. We'll assist you with your daily life, whether you only need a little help getting your day
-                started or more ongoing support. Our services are highly personalized to meet your unique requirements
-            </p>
+        <h2>Assistance with Life Tasks</h2>
+            <p>We focus on training and development activities to increase your ability to live as autonomously as
+                possible to develop your daily living and life skills. We provide support to enhance your ability to
+                travel and use public transport independently.</p>
             <ul>
-                <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
-                    or chair to wheelchair or toilet.</li>
-                <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from bed or chair to wheelchair or toilet.</li>
-                <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Cooking assistance and meal preparation.</strong></li>
-                <li><strong>Laundry and ironing.</strong></li>
+                <li>Support to join local exercise classes and sporting clubs, social groups aligned to your cultural
+                    preferences and your interests, visiting local community centers.</li>
+                <li>Relaxation techniques, eating out.</li>
+                <li>Proactive behavior and speaking up for yourself, developing relationships.</li>
+                <li>Personal presentation, hygiene and personal care, laundry, and clothes care.</li>
+                <li>Household management.</li>
+                <li>Paying bills, developing, and following a budget, money skills, learning about renting, literacy and
+                    numeracy.</li>
+                <li>Preparing a healthy weekly menu, shopping for groceries, cooking, and healthy eating.</li>
             </ul>
         </div>
         <div class="col-md-6">
             <img class="img-fluid"
-                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
-                alt="Volunteer">
+                src="https://www.hopeability.com.au/wp-content/uploads/2021/11/NDIS_Household_Tasks_image.jpg"
+                alt="Volunteer" width="100%" height="100%">
         </div>
     </div>
 </div>

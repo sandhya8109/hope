@@ -54,32 +54,32 @@ include('nav.php')
     <!-- Page Header End -->
 <!--content-->
 <div class="container" style="text-align: justify;">
-<div class="row">
-
+<div class="row" >
+        
         <div class="col-md-6">
-        <h2>Daily Personal Activities</h2>
-            <p>We help with and/or supervise personal daily life tasks to enable you to live as autonomously as
-                possible. We provide individual support in a range of environments, including but not limited to, your
-                own home. We'll assist you with your daily life, whether you only need a little help getting your day
-                started or more ongoing support. Our services are highly personalized to meet your unique requirements
-            </p>
+        <h2>Assistance With Travel / Transport Arrangements</h2>
+            <p>We are passionate about helping you to be as independent as possible by providing safe and reliable
+                transport to get to and from appointments and whatever else you need to do in your community. If getting
+                around independently is your goal, then our friendly staff can help you build capacity to use public
+                transport safely and with confidence.</p>
             <ul>
-                <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
-                    or chair to wheelchair or toilet.</li>
-                <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from bed or chair to wheelchair or toilet.</li>
-                <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Cooking assistance and meal preparation.</strong></li>
-                <li><strong>Laundry and ironing.</strong></li>
+                <li><strong>Transport Service:</strong>Getting out and engaging with friends and the community is just
+                    as important as enjoying your home environment. We’ll help to ensure you are able to lead a life
+                    that’s active and meaningful.</li>
+                <li><strong>Community Access:</strong>Helping you get out into your community and into your local town
+                    or city by going with you on public transport.</li>
+                <li><strong>Social Activities:</strong>Helping you try new things or continue existing activities whilst
+                    making friends – from hobbies, recreation, leisure, sports, and arts to community programs like
+                    gardening or volunteering.</li>
+                <li><strong>Appointments:</strong>Getting you to and from your medical, school or job appointments.</li>
+
             </ul>
         </div>
         <div class="col-md-6">
             <img class="img-fluid"
-                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
-                alt="Volunteer">
+                src="https://www.hopeability.com.au/wp-content/uploads/2021/03/Assistance-with-Travel-Image-1.webp"
+                alt="Volunteer" width="100%" height="100%">
+      
         </div>
     </div>
 </div>

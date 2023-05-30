@@ -72,7 +72,7 @@ include('nav.php')
                                     development activities.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post1.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ include('nav.php')
                                     the participant to.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post2.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ include('nav.php')
                                     tasks of daily life.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post3.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ include('nav.php')
                                     providing safe and reliable ........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post4.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ include('nav.php')
                                     a fulfilling........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post5.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ include('nav.php')
                                     wellbeing........</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
-                            <a class="text-primary fw-medium" href="">Read More<i
+                            <a class="text-primary fw-medium" href="post6.php">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>

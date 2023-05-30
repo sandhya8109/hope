@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.3
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 28, 2023 at 08:23 AM
--- Server version: 10.4.24-MariaDB
--- PHP Version: 7.4.29
+-- Generation Time: May 30, 2023 at 12:07 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -53,6 +54,27 @@ INSERT INTO `application` (`id`, `firstname`, `middlename`, `lastname`, `gender`
 (2, 'sandhya', '', 'rimal', 'Female', 'sandyriomal07@gmail.com', '9862386184', 'bhajapatan', '', 2, '', 0, '2023-05-25 12:10:36', ''),
 (3, 'sandy', '', 'rimal', 'Female', 'sandyrimal07@gmail.com', '9862386184', 'bhajaptan', '', 3, '', 0, '2023-05-25 14:32:40', ''),
 (4, 'Ganesh', '', 'Adhikari', 'Male', 'ganesh410adhikari@gmail.com', '9864434149', 'Pokhara', '', 3, '', 0, '2023-05-25 16:41:58', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `banner_management`
+--
+
+CREATE TABLE `banner_management` (
+  `id` int(30) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `image` varchar(450) NOT NULL,
+  `is_active` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `banner_management`
+--
+
+INSERT INTO `banner_management` (`id`, `title`, `image`, `is_active`) VALUES
+(132, 'We Care With Respect', '36862_front-view-smiley-girl-woman-indoors.jpg', 1),
+(133, 'Mental Health Services', '92738_granddaughter-talking-with-her-grandmother-sitting-wheelchair-cheerful-concept-happy-family.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -163,6 +185,12 @@ ALTER TABLE `application`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `banner_management`
+--
+ALTER TABLE `banner_management`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `recruitment_status`
 --
 ALTER TABLE `recruitment_status`
@@ -195,6 +223,12 @@ ALTER TABLE `vacancy`
 --
 ALTER TABLE `application`
   MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `banner_management`
+--
+ALTER TABLE `banner_management`
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
 
 --
 -- AUTO_INCREMENT for table `recruitment_status`
