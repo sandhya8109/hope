@@ -95,13 +95,16 @@ include('nav.php')
 
   <div class="full">
     <div class="contact">
-      <i class="fa fa-map-marker-alt"></i>
-      <h2>Address</h2>
+    <a href="https://goo.gl/maps/igzCj2PywqwN139L7?coh=178571&entry=tt
+
+15/16 Charlton Ct · 16 Charlton Ct, Woolner NT 0820, Australien
+"><i class="fa fa-map-marker-alt"></i>
+      <h2>Address</h2></a>
       <p>15/16 Charlton Ct Woolner NT 0820</p>
     </div>
     <div class="contact">
-      <i class="fa fa-envelope-open"></i>
-      <h2>Mail</h2>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fa fa-envelope-open"></i>
+      <h2>Mail</h2></a>
       <p>Info@hopeability.com.au</p>
     </div>
     <div class="contact">
@@ -110,13 +113,13 @@ include('nav.php')
       <p>1300 424 442</p>
     </div>
     <div class="contact">
-      <i class="fa fa-user"></i>
-      <h2>Referrals</h2>
+    <a href="./refer.php"><i class="fa fa-user"></i>
+      <h2>Referrals</h2></a>
       <p>Participant Form</p>
     </div>
     <div class="contact">
-      <i class="fa fa-clock"></i>
-      <h2>We are open</h2>
+    <a href="./index.php"><i class="fa fa-clock"></i>
+      <h2>We are open</h2></a>
       <p>Monday – Friday : 9AM – 5PM</p>
     </div>
   </div>
@@ -213,19 +216,20 @@ include('nav.php')
         For Enquiry Form
       </h1>
       <br>
-      <form>
+      <form action="send_contact.php" method="POST">
+
         <div class="form_container">
           <div class="form_control">
             <label for="first_name"> First Name </label>
-            <input id="first_name" name="first_name" placeholder="Enter First Name..." />
+            <input id="first_name" name="first_name" placeholder="Enter First Name..." required />
           </div>
           <div class="form_control">
             <label for="last_name"> Last Name </label>
-            <input id="last_name" name="last_name" placeholder="Enter Last Name..." />
+            <input id="last_name" name="last_name" placeholder="Enter Last Name..." required />
           </div>
           <div class="form_control">
             <label for="email"> Email </label>
-            <input type="email" id="email" name="email" placeholder="Enter Email..." />
+            <input type="email" id="email" name="email" placeholder="Enter Email..." required />
           </div>
           <div class="form_control">
             <label for="job_role"> Phone </label>
@@ -233,7 +237,7 @@ include('nav.php')
           </div>
           <div class="textarea_control">
             <label for="address"> Message </label>
-            <textarea id="address" name="address" row="4" cols="50" placeholder="Enter Message"></textarea>
+            <textarea id="address" name="address" row="4" cols="50" required placeholder="Enter Message"></textarea>
           </div>
           <br>
           <br>
@@ -250,7 +254,7 @@ include('nav.php')
 
   <div class="map">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.7902539402759!2d131.01108536954771!3d-12.505484499235527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc0a311b353d393%3A0xda11542df27d0569!2s3%20Grumman%20Cres%2C%20Zuccoli%20NT%200832%2C%20Australia!5e0!3m2!1sen!2snp!4v1684496714930!5m2!1sen!2snp"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3896.285332767919!2d130.8573214148163!3d-12.430699591212349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2cc093e0f0095555%3A0xba956485c51af35!2s15%2F16%20Charlton%20Ct%2C%20Woolner%20NT%200820%2C%20Australia!5e0!3m2!1sen!2snp!4v1685378953191!5m2!1sen!2snp"
       width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
 

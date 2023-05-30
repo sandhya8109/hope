@@ -53,7 +53,7 @@
                     <a href="./imp.php" style="color:#fff;"><small class="ms-4"><i
                                 class="fa fa-download me-3"></i>Important
                             Documents</small></a>
-                    <a href="./referral.php" style="color:#fff;"><small class="ms-4"><i
+                    <a href="./refer.php" style="color:#fff;"><small class="ms-4"><i
                                 class="fa fa-user-plus me-3"></i>Referrals</small>
                         <div class="ms-3 d-flex">
                     </a>
