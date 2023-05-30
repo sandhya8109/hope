@@ -53,7 +53,7 @@ include('nav.php')
     </div>
     <!-- Page Header End -->
 <!--content-->
-<div class="container" style="align-text: justify">
+<div class="container" >
 <div class="row">
 <h2>Daily Personal Activities</h2>
         <div class="col-md-6">
