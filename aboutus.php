@@ -94,6 +94,24 @@ include('nav.php')
     </div>
     <!-- About End -->
 
+    <!-- Mission Start -->
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="section-title bg-white text-center display-5 mb-5 text-primary px-3">Our Mission</h1>
+            </div>
+                <div class="wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="mb-5 text-center" >Our mission is to empower people with a disability to engage in
+                        opportunities of their choice in a supported and inclusive environment.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Mission End -->
+
     <!-- Service Start -->
     <h1 class="section-title bg-white text-center text-primary px-3">Our Values</h1>
     <style>

@@ -38,13 +38,6 @@ include('nav.php')
 </head>
 
 <body>
-    <!-- Spinner Start 
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-    </div>
-     Spinner End -->
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
@@ -65,15 +58,14 @@ include('nav.php')
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="section-title bg-white text-center text-primary px-3">Our Services</h1>
+                <h1 class="section-title bg-white text-center text-primary display-5 mb-5 px-3">Our Services</h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-1.png" alt="Icon">
+                            <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">Development-Life Skills</h4>
                                 <p class="mb-0">Development of daily living and life skills focus on training and
@@ -85,12 +77,11 @@ include('nav.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                        <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">
                                 Personal Activities </h4>
@@ -103,12 +94,11 @@ include('nav.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
+                        <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">Assistance Life Tasks</h4>
                                 <p class="mb-0">This registration group incorporates assistance with or supervising
@@ -120,12 +110,11 @@ include('nav.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h4>
                                 <p class="mb-0">We are passionate about helping you to be as independent as possible by
@@ -137,12 +126,11 @@ include('nav.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">Participation In Community, Social And Civic Activities</h4>
                                 <p class="mb-0">Being part of something beyond your front door is so important to living
@@ -154,12 +142,11 @@ include('nav.php')
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="margin-bottom:2rem">
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-4"
-                                style="width: 64px; height: 64px;">
-                                <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
+                        <div class="mb-4 mx-auto" >
+                                <img class="img-fluid" src="./assets/img/full-shot-woman-with-crutches.jpg" alt="Icon" >
                             </div>
                             <h5 class="mb-3">Household Task</h4>
                                 <br>

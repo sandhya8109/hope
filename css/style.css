@@ -354,6 +354,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    height: 26rem;
 }
 
 .project-item .project-overlay {

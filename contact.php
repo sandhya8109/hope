@@ -108,8 +108,8 @@ include('nav.php')
       <p>Info@hopeability.com.au</p>
     </div>
     <div class="contact">
-      <i class="fa fa-mobile-alt"></i>
-      <h2>Phone</h2>
+      <a href="tel:1300 424 442"><i class="fa fa-mobile-alt"></i>
+      <h2>Phone</h2></a>
       <p>1300 424 442</p>
     </div>
     <div class="contact">
