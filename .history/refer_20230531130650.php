@@ -115,7 +115,7 @@ include('nav.php')
                                 <input type="text" placeholder="Enter last name" data-validation="required" />
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label>Date of Birth<span style="color:red">*</span></label>
                                 <input type="date" placeholder="MM.DD.YYYY" data-validation="required" />
@@ -133,7 +133,7 @@ include('nav.php')
                                 </div>
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label>Phone Number<span style="color:red">*</span></label>
                                 <input type="number" placeholder="Enter phone number" data-validation="required" />
@@ -143,7 +143,7 @@ include('nav.php')
                                 <input type="email" placeholder="Enter email" data-validation="required" />
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label>Address<span style="color:red">*</span></label>
                                 <input type="text" placeholder="Enter your address" data-validation="required" />
@@ -153,7 +153,7 @@ include('nav.php')
                                 <input type="text" placeholder="State/Province/Region" />
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label>Zip/Postal Code</label>
                                 <input type="text" placeholder="Zip/Postal Code">
@@ -163,7 +163,7 @@ include('nav.php')
                                 <input type="text" placeholder="Enter Country of Birth">
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label for="status"> Family Status </label>
                                 <div class="select-box">
@@ -190,7 +190,7 @@ include('nav.php')
                             <label for="Religion">Religion</label>
                             <input type="text" placeholder="Enter Religion">
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <h5>What does Participant Identify as?<span style="color:red">*</span></h5>
                                 <div class="gender">
@@ -277,7 +277,7 @@ include('nav.php')
                             <label for="address" class='required'>Please indicate how we can follow-up on your inquiry
                                 (ie. NDIS support
                                 etc.) </label>
-                            <textarea id="" name="" row-1="10" cols="50" placeholder=""></textarea>
+                            <textarea id="" name="" row="10" cols="50" placeholder=""></textarea>
                         </div>
                         <div class="mt-3">
                             <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
@@ -288,7 +288,7 @@ include('nav.php')
                     <section id="step-3" class="form-step d-none">
                         <h2 class="font-normal">Refered By</h2>
                         <!-- Step 3 input fields -->
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label for="first_name" class='required'>First Name<span style="color:red">*</span>
                                 </label>
@@ -302,7 +302,7 @@ include('nav.php')
                                     data-validation="required" />
                             </div>
                         </div>
-                        <div class="row-1">
+                        <div class="row">
                             <div class="mt-3 col">
                                 <label>Phone Number<span style="color:red">*</span></label>
                                 <input type="number" placeholder="Enter Phone Number" data-validation="required">
@@ -322,7 +322,7 @@ include('nav.php')
                         </div>
                         <div class="mt-3">
                             <label>Message:</label>
-                            <textarea id="" name="" row-1="10" cols="50" placeholder=""></textarea>
+                            <textarea id="" name="" row="10" cols="50" placeholder=""></textarea>
                         </div>
                         <div class="mt-3 ">
                             <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
