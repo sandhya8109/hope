@@ -99,23 +99,22 @@ include 'admin/db_connect.php';
 
 
 <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+$('.card.vacancy-list').click(function () {
+location.href = "workwithus.php?page=view_vacancy&id=" + $(this).attr('data-id')
+})
+$('#filter').keyup(function (e) {
+var filter = $(this).val()
 
-    $('.card.vacancy-list').click(function () {
-        location.href = "workwithus.php?page=view_vacancy&id=" + $(this).attr('data-id')
-    })
-    $('#filter').keyup(function (e) {
-        var filter = $(this).val()
+$('.card.vacancy-list .filter-txt').each(function () {
+var txto = $(this).html();
+txt = txto
+if ((txt.toLowerCase()).includes((filter.toLowerCase())) == true) {
+$(this).closest('.card').toggle(true)
+} else {
+$(this).closest('.card').toggle(false)
 
-        $('.card.vacancy-list .filter-txt').each(function () {
-            var txto = $(this).html();
-            txt = txto
-            if ((txt.toLowerCase()).includes((filter.toLowerCase())) == true) {
-                $(this).closest('.card').toggle(true)
-            } else {
-                $(this).closest('.card').toggle(false)
-
-            }
-        })
-    })
+}
+})
+})
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
