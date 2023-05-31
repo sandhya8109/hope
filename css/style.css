@@ -192,6 +192,21 @@
     font-size: 18px;
     color: var(--light);
 }
+.pageabout-header {
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about\ us-banner.jpeg) center center no-repeat;
+    background-size: cover;
+   
+ }
+
+.pageabout-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.pageabout-header .breadcrumb-item,
+.pageabout-header .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
 
 
 /*** Features ***/
