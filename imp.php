@@ -62,27 +62,27 @@ include('nav.php')
     <!-- Page Header End -->
     <!-- Start -->
     <div class="container-xxl py-5">
-        <h2 class="text-center">Important Documents</h2>
+        <h2 class="text-center" style="margin-bottom: 3rem;">Important Documents</h2>
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding-bottom: 3rem;">
                 <div class="col-md-7">
                     <div class="row text-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Hope Ability Brochure</h5>
-                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Brochure.pdf"
+                            <a href="hope\impdoc\Hope Ability Brochure.pdf"
                                 target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
-                        <div class="col-md-4"><i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                        <div class="col-md-4" style="padding-bottom: 2rem;"><i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Participant-Handbook</h5>
                             <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Participant-Handbook-1.pdf"
                                 target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Privacy-Statements</h5>
                             <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Privacy-Statement-1.pdf"
@@ -94,7 +94,7 @@ include('nav.php')
                 </div>
                 <div class="col-md-5">
                     <div class="row text-center">
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Easy-Read-Complaints</h5>
                             <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Easy-Read-Complaints-1.pdf"
@@ -103,7 +103,59 @@ include('nav.php')
                                     Now</button></a>
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="padding-bottom: 2rem;">
+                            <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                            <h5 class="mb-3">Complaints-Feedback</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Complaints-Feedback-Form-2.pdf"
+                                target=”_blank”>
+                                <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
+                                    Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second row-->
+            <div class="row" >
+                <div class="col-md-7">
+                    <div class="row text-center">
+                        <div class="col-md-4" style="padding-bottom: 2rem;">
+                            <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                            <h5 class="mb-3">Hope Ability Brochure</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Brochure.pdf"
+                                target=”_blank”>
+                                <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
+                                    Now</button></a>
+                        </div>
+                        <div class="col-md-4" style="padding-bottom: 2rem;"><i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                            <h5 class="mb-3">Participant-Handbook</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Participant-Handbook-1.pdf"
+                                target=”_blank”>
+                                <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
+                                    Now</button></a>
+                        </div>
+                        <div class="col-md-4" style="padding-bottom: 2rem;">
+                            <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                            <h5 class="mb-3">Privacy-Statements</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Privacy-Statement-1.pdf"
+                                target=”_blank”>
+                                <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
+                                    Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row text-center">
+                        <div class="col-md-6" style="padding-bottom: 2rem;">
+                            <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
+                            <h5 class="mb-3">Easy-Read-Complaints</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Easy-Read-Complaints-1.pdf"
+                                target=”_blank”>
+                                <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
+                                    Now</button></a>
+
+                        </div>
+                        <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Complaints-Feedback</h5>
                             <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Complaints-Feedback-Form-2.pdf"
