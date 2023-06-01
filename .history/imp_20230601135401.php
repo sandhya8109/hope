@@ -95,7 +95,7 @@ include('nav.php')
                         <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Easy-Read-Complaints</h5>
-                            <a href="./impdoc/Easy-Read-Complaint.pdf" target=”_blank”>
+                            <a href="./impdoc/Complaints-Feedback-Form.pdf" target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
 
@@ -103,7 +103,8 @@ include('nav.php')
                         <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
                             <h5 class="mb-3">Complaints-Feedback</h5>
-                            <a href="./impdoc/Complaints-Feedback-Form.pdf" target=”_blank”>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Complaints-Feedback-Form-2.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
@@ -117,22 +118,25 @@ include('nav.php')
                     <div class="row text-center">
                         <div class="col-md-4" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
-                            <h5 class="mb-3">Change of Details</h5>
-                            <a href="./impdoc/Change of details or change of situation form.pdf" target=”_blank”>
+                            <h5 class="mb-3">Hope Ability Brochure</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Brochure.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
                         <div class="col-md-4" style="padding-bottom: 2rem;"><i
                                 class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
-                            <h5 class="mb-3">Code of Ethics</h5>
-                            <a href="./impdoc/Code-of-Ethics-and-Conduct-Agreement.pdf" target=”_blank”>
+                            <h5 class="mb-3">Participant-Handbook</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Hope-Ability-Participant-Handbook-1.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
                         <div class="col-md-4" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
-                            <h5 class="mb-3">Health and Safety</h5>
-                            <a href="./impdoc/Health and Seftey HandBook - V.1.pdf" target=”_blank”>
+                            <h5 class="mb-3">Privacy-Statements</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Privacy-Statement-1.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
@@ -142,16 +146,18 @@ include('nav.php')
                     <div class="row text-center">
                         <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
-                            <h5 class="mb-3">Hope Ability Staff</h5>
-                            <a href="./impdoc/Hope Ability Staff_Handbook.pdf" target=”_blank”>
+                            <h5 class="mb-3">Easy-Read-Complaints</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Easy-Read-Complaints-1.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
 
                         </div>
                         <div class="col-md-6" style="padding-bottom: 2rem;">
                             <i class="fa fa-3x fa-regular fa-file-pdf  mb-4"></i>
-                            <h5 class="mb-3">Participant- Intake</h5>
-                            <a href="./impdoc/Participant-Intake-Form.pdf" target=”_blank”>
+                            <h5 class="mb-3">Complaints-Feedback</h5>
+                            <a href="https://www.hopeability.com.au/wp-content/uploads/2021/11/Complaints-Feedback-Form-2.pdf"
+                                target=”_blank”>
                                 <button class="bg-danger text-light" style="border-color: red;padding: 10px;">Download
                                     Now</button></a>
                         </div>
