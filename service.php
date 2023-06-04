@@ -65,9 +65,9 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp" style="height: 13rem" alt="HOPE" >
                             </div>
-                            <h5 class="mb-3">Development-Life Skills</h4>
+                            <h5 class="mb-3">Development-Life Skills</h5>
                                 <p class="mb-0">Development of daily living and life skills focus on training and
                                     development activities.</p>
                         </div>
@@ -81,10 +81,10 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                         <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Daily-Life-Tasks.jpg" alt="Hope" >
                             </div>
                             <h5 class="mb-3">
-                                Personal Activities </h4>
+                                Personal Activities </h5>
                                 <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable
                                     the participant to.</p>
                         </div>
@@ -98,9 +98,9 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                         <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/11/NDIS_Household_Tasks_image.jpg" alt="Hope" >
                             </div>
-                            <h5 class="mb-3">Assistance Life Tasks</h4>
+                            <h5 class="mb-3">Assistance Life Tasks</h5>
                                 <p class="mb-0">This registration group incorporates assistance with or supervising
                                     tasks of daily life.</p>
                         </div>
@@ -114,9 +114,9 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                         <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/03/Assistance-with-Travel-Image-1.webp" alt="Hope" >
                             </div>
-                            <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h4>
+                            <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h5>
                                 <p class="mb-0">We are passionate about helping you to be as independent as possible by
                                     providing safe and reliable ........</p>
                         </div>
@@ -130,9 +130,9 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                         <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/service.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Social-And-Civic-Activities.jpg" alt="Hope">
                             </div>
-                            <h5 class="mb-3">Participation In Community, Social And Civic Activities</h4>
+                            <h5 class="mb-3">Participation In Community, Social And Civic Activities</h5>
                                 <p class="mb-0">Being part of something beyond your front door is so important to living
                                     a fulfilling........</p>
                         </div>
@@ -146,9 +146,9 @@ include('nav.php')
                     <div class="service-item position-relative h-100">
                         <div class="service-text rounded p-5">
                         <div class="mb-4 mx-auto" >
-                                <img class="img-fluid" src="./assets/img/full-shot-woman-with-crutches.jpg" alt="Icon" >
+                                <img class="img-fluid" src="https://www.hopeability.com.au/wp-content/uploads/2021/03/NDIS_Household_Tasks_image.webp" alt="Icon" >
                             </div>
-                            <h5 class="mb-3">Household Task</h4>
+                            <h5 class="mb-3">Household Task</h5>
                                 <br>
                                 <p class="mb-0">Having a clean and neat home environment is important for
                                     wellbeing........</p>

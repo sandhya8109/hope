@@ -57,283 +57,368 @@ include('nav.php')
     <div class="container-fluid">
         <h1 class="display-5 mb-4" style="font-size:2.5rem; ">Do You Know Someone Who Needs Help To Live Their Best
             Life?​</h1>
-        <p class="text-center" style="margin: 1.5rem 10rem 0 10rem;  font-size: large; ">"Know someone who could benefit
+        <p class="text-center mb-4" style="margin: 0 8rem 0 8rem; font-size: large; ">"Know someone who could benefit
             from our services? Refer them to us and help us make a
             difference in their lives. Your referral means a lot to us as we strive to extend our reach and provide
             exceptional support and care to more individuals. Thank you for considering recommending Hope Ability.”</p>
         </br>
 
         <h2 class="text-center" style="color: #274a84;">Please Fill In The Following Details</h2>
-        <p class="text-center" style="margin: 1.5rem 10rem 0 10rem;  font-size: large; ">All fields marked with <span
-                style="color: red;">*</span> are required and must be
-            filled.</p>
-        <div id="multi-step-form-container">
-            <!-- Form Steps / Progress Bar -->
-            <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
-                <!-- Step 1 -->
-                <li class="form-stepper-active text-center form-stepper-list" step="1">
-                    <a class="mx-2">
-                        <span class="form-stepper-circle">
-                            <span>1</span>
-                        </span>
-                        <div class="label">Participant Details</div>
-                    </a>
-                </li>
-                <!-- Step 2 -->
-                <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
-                    <a class="mx-2">
-                        <span class="form-stepper-circle text-muted">
-                            <span>2</span>
-                        </span>
-                        <div class="label text-muted">Service Details</div>
-                    </a>
-                </li>
-                <!-- Step 3 -->
-                <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
-                    <a class="mx-2">
-                        <span class="form-stepper-circle text-muted">
-                            <span>3</span>
-                        </span>
-                        <div class="label text-muted">Referer Details</div>
-                    </a>
-                </li>
-            </ul>
-            <!-- Step Wise Form Content -->
-            <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
-                <div class="user-details">
-                    <!-- Step 1 Content -->
-                    <section id="step-1" class="form-step">
-                        <h2 class="font-normal">Participant Details</h2>
-                        <!-- Step 1 input fields -->
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>First Name<span style="color:red">*</span></label>
-                                <input type="text" placeholder="Enter first name" data-validation="required" />
+            <div class="container-fluid justify-content-center"style="width:90%">
+    <div class="row justify-content-center">
+        <div class="card px-0 pt-4 pb-0 mt-3 mb-3 justify-content-center" >
+        <p class="text-center">Fill all the fields to go to next step.</p>
+                <form id="msform" class="justify-content-center mb-4">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li class="active" id="account"><strong>Participant Info</strong></li>
+                        <li id="personal"><strong>Ratio</strong></li>
+                        <li id="payment"><strong>NDIS</strong></li>
+                        <li id="new"><strong>Contact</strong></li>
+                        <li id="confirm"><strong>Referer</strong></li>
+                    </ul>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div> <br> <!-- fieldsets -->
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Participant Information:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 1 - 5</h2>
+                                </div>
                             </div>
-                            <div class="mt-3 col">
-                                <label>Last Name<span style="color:red">*</span></label>
-                                <input type="text" placeholder="Enter last name" data-validation="required" />
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Participant's Full Name: </label> <input type="text" name="name" placeholder="Participant's Full Name" /></div> 
+                            <div class="col"><label class="fieldlabels">Date of Birth: </label> <input type="date" name="date" placeholder="" /></div> 
                             </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>Date of Birth<span style="color:red">*</span></label>
-                                <input type="date" placeholder="MM.DD.YYYY" data-validation="required" />
-                            </div>
-                            <div class="mt-3 col">
-                                <label>Gender<span style="color:red">*</span></label>
-                                <div class="select-box">
-                                    <select id="drop-down" name="gender" data-validation="required">
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Other names(if applicable): </label> <input type="text" name="name" placeholder="Other Name" /></div> 
+                            <div class="col"><label class="fieldlabels">Gender: </label> <select id="drop-down" name="gender">
                                         <option value="">Select Gender</option>
                                         <option value="">Female</option>
                                         <option value="">Male</option>
                                         <option value="">Non-binary</option>
                                         <option value="">Not prefer to say</option>
-                                    </select>
-                                </div>
+                                    </select></div> 
                             </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>Phone Number<span style="color:red">*</span></label>
-                                <input type="number" placeholder="Enter phone number" data-validation="required" />
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Residental Address: </label> <input type="text" name="name" placeholder="Residental Address" /></div> 
+                            <div class="col"><label class="fieldlabels">Postal Address(if different): </label> <input type="text" name="text" placeholder="Postal Address" /></div> 
                             </div>
-                            <div class="mt-3 col">
-                                <label>Email<span style="color:red">*</span></label>
-                                <input type="email" placeholder="Enter email" data-validation="required" />
-                            </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>Address<span style="color:red">*</span></label>
-                                <input type="text" placeholder="Enter your address" data-validation="required" />
-                            </div>
-                            <div class="mt-3 col">
-                                <label>State/Province/Region</label>
-                                <input type="text" placeholder="State/Province/Region" />
-                            </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>Zip/Postal Code</label>
-                                <input type="text" placeholder="Zip/Postal Code">
-                            </div>
-                            <div class="mt-3 col">
-                                <label>Country of Birth</label>
-                                <input type="text" placeholder="Enter Country of Birth">
-                            </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label for="status"> Family Status </label>
-                                <div class="select-box">
-                                    <select id="drop-down" name="status">
-                                        <option value="">Select family status</option>
-                                        <option value="">Single</option>
-                                        <option value="">Married</option>
-                                        <option value="">Defacto</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="mt-3 col">
-                                <label for="Citizenship"> Citizenship Status </label>
-                                <div class="select-box">
-                                    <select id="drop-down" name="Citizenship">
-                                        <option value="">Select Citizenship</option>
-                                        <option value="">Permanent Residant</option>
-                                        <option value="">Temporary Visitors</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3 input-box">
-                            <label for="Religion">Religion</label>
-                            <input type="text" placeholder="Enter Religion">
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <h5>What does Participant Identify as?<span style="color:red">*</span></h5>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender" />
-                                    <label for="aboriginal">Aboriginal</label>
-                                </div>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender" />
-                                    <label for="option2">Torres Strait</label>
-                                </div>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender" />
-                                    <label for="both">Both</label>
-                                </div>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender" />
-                                    <label for="neither">Neither</label>
-                                </div>
-                            </div>
-                            <div class="mt-3 col">
-                                <h5>Does Participant require an Interpreter?<span style="color:red">*</span></h5>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender1" />
-                                    <label for="yes">Yes</label>
-                                </div>
-                                <div class="gender">
-                                    <input type="radio" id="check-other" name="gender1" />
-                                    <label for="no">No</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <label>If Yes, State Preferred Language</label>
-                            <input type="textarea" placeholder="Enter Preferred Language">
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="2"
-                                onclick="return validateForm()">Next</button>
-                        </div>
-                    </section>
-                    <!-- Step 2 Content, default hidden on page load. -->
-                    <section id="step-2" class="form-step d-none">
-                        <h2 class="font-normal">Service Details</h2>
-                        <!-- Step 2 input fields -->
-                        <div class="mt-3">
-                            <label for="disability" class='required'> Participant Disability<span
-                                    style="color:red">*</span></label>
+                            <label class="fieldlabels">Contact Number: </label> <input type="number" name="uname" placeholder="Contact Number" />
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Does the Participant identify as: </label> 
                             <div class="radio">
-                                <input type="checkbox" id="yes" name="Vision" value="yes" class="checked">
-                                <label for="">Vision</label><br>
-
-                                <input type="checkbox" id="no" name="Hearing" value="no" class="checked">
-                                <label for="">Hearing</label><br>
-
-                                <input type="checkbox" id="no" name="Mental Health" value="no" class="checked">
-                                <label for="">Mental Health</label><br>
-
-                                <input type="checkbox" id="no" name="Intellectual" value="no" class="checked">
-                                <label for="">Intellectual</label><br>
-
-                                <input type="checkbox" id="no" name="Acquired Brain Injury" value="no" class="checked">
-                                <label for="">Acquired Brain Injury</label><br>
-
-                                <input type="checkbox" id="no" name="Autism Spectrum Disorder" value="no"
-                                    class="checked">
-                                <label for="">Autism Spectrum Disorder</label><br>
-
-                                <input type="checkbox" id="no" name="Physical Disability" value="no" class="checked">
-                                <label for="">Physical Disability</label><br>
-
-                                <input type="checkbox" id="no" name="fav_language" value="no" class="checked">
-                                <label for="">Other</label><br>
+                            <label class="fieldlabels" >Aboriginal </label> <input type="radio" name="uname"/>
+                            <label class="fieldlabels">Torres Strait </label> <input type="radio" name="uname" /> 
+                            <label class="fieldlabels">Both </label> <input type="radio" name="uname" /> 
+                            <label class="fieldlabels">Neither </label> <input type="radio" name="uname" /></div> 
+                            </div>
+                            <div class="col"><label class="fieldlabels">Has the Participant consented to this referral? </label>
+                            <div class="radio">
+                            <label class="fieldlabels" >Yes </label> <input type="radio" name="uname"/>
+                            <label class="fieldlabels">No </label> <input type="radio" name="uname" /> </div></div> 
+                            </div>
+                            <label class="fieldlabels">Primary Diagnosis: (please attach supporting documentation)
+                            </label> <textarea id="" name="" rows="10" cols="50" placeholder="Primary Diagnosis">
+                            </textarea>
+                            <label class="fieldlabels">Secondary Disability(ies) or other presenting issues:
+                            </label> <textarea id="" name="" row-1="10" cols="50" placeholder="Secondary Disability(ies)">
+                            </textarea>
+                            <label class="fieldlabels">Communication Status:</label> <input type="text" name="uname" placeholder=" (eg. verbal,sign etc)" />
+                            <label class="fieldlabels">Communication assessment:</label> 
+                            <div class="checkbox">
+                            <label class="fieldlabels" >Completed and attached </label> <input type="checkbox" name="uname" />
+                            <label class="fieldlabels">Not available </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Not applicable </label> <input type="checkbox" name="uname" /> 
+                            </div>
+                            <label class="fieldlabels">Personal Mobility Aids: </label> <input type="text" name="text" placeholder="Personal Mobility Aids" /> 
+                            <label class="fieldlabels">Mobility Aids required: </label> 
+                            <div class="checkbox">
+                            <label class="fieldlabels" >Hoisting </label> <input type="checkbox" name="uname" />
+                            <label class="fieldlabels">Commode </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Sarah Steady </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Any other Assistive Devices </label> <input type="checkbox" id="OtherCheckBox" name="uname" onchange="javascript:toggleOtherTextboxVisible()" /> 
+                            <input id="OtherTextBox" type="text" style="display:none" placeholder="please specify"/>
+                            <script type="text/javascript">
+                            function toggleOtherTextboxVisible()
+                            {
+                            var check = document.getElementById('OtherCheckBox');
+                                if (check.checked) {
+                                document.getElementById('OtherTextBox').style.display = 'block';
+                                }
+                                else
+                                document.getElementById('OtherTextBox').style.display = 'none';                
+                            }
+                            </script>
+                            </div>
+                            <label class="fieldlabels">Does Participant have challenging behaviours?
+                            </label> <textarea id="" name="" row-1="10" cols="50" placeholder="">
+                            </textarea>
+                            <label class="fieldlabels">Does Participant have a current Behaviour Support Plan(PBSP)? </label> 
+                            <div class="checkbox">
+                            <label class="fieldlabels">Yes </label> <input type="checkbox" name="uname"/> 
+                            <label class="fieldlabels">No </label> <input type="checkbox" name="uname" /> </div>
+                            <label class="fieldlabels">Please tick the documents that have been provided: </label>
+                            <div class="checkbox">
+                            <div class="col">
+                            <label class="fieldlabels" >PBSP </label> <input type="checkbox" name="uname" />
+                            <label class="fieldlabels">NDIS Plan Goals </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Risk assessment </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Person centered plan </label> <input type="checkbox" name="uname"></div>
+                            <div class="col">
+                            <label class="fieldlabels">Communication assessment </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Occupational Therapy assessment </label> <input type="checkbox" name="uname">
+                            <label class="fieldlabels">Copy of NDIS plan </label> <input type="checkbox" name="uname" /> 
+                            <label class="fieldlabels">Other: </label> <input type="checkbox" id="OtherCheckBox" name="uname" onclick="OnChangeCheckbox (this)"ID="chkAssociation" /> 
+                            <input type="textbox" Id="txtToggle" style="display:none" placeholder="please specify"/>
+                            <script type="text/javascript">
+    function OnChangeCheckbox (checkbox) {
+        if (checkbox.checked) {
+            document.getElementById('txtToggle').style.display="block"; 
+        }
+        else {
+            document.getElementById('txtToggle').style.display="none"; 
+        }
+    }
+   </script>
+                            </script>
+                            </div>    
+                        </div>
+                        </div> <input type="button" name="next" class="next action-button" value="Next" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Ratio of Care and Community Access:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 2 - 5</h2>
+                                </div>
+                            </div>
+                             <label class="fieldlabels">Requested ratio of Support: </label> 
+                             <div class="checkbox">
+                            <label class="fieldlabels">Day </label>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:1<input type="checkbox" name="uname"/>
+                            1:2<input type="checkbox" name="uname"/>1:3<input type="checkbox" name="uname"/>
+                            <label class="fieldlabels">Other </label> <input type="text" name="uname" /> </div>
+                            <div class="checkbox">
+                            <label class="fieldlabels">Night</label>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:1<input type="checkbox" name="uname"/>
+                            1:2<input type="checkbox" name="uname"/>1:3<input type="checkbox" name="uname"/>
+                            <label class="fieldlabels">Other </label> <input type="text" name="uname" /> </div>
+                            <div class="checkbox">
+                            <label class="fieldlabels">Community Access </label>
+                             &nbsp;&nbsp;&nbsp;&nbsp;1:1<input type="checkbox" name="uname"/>
+                            1:2<input type="checkbox" name="uname"/>1:3<input type="checkbox" name="uname"/>
+                            <label class="fieldlabels">Other </label> <input type="text" name="uname" /> </div>
+                            <div class="checkbox">
+                            Passive<input type="checkbox" name="uname"/> 
+                            Active<input type="checkbox" name="uname" /> </div>
+                              <label class="fieldlabels">Current Community Access/Day Service: </label>
+                              <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Monday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Tuesday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Wednesday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Thursday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Friday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Saturday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                             <div class="row">
+                              <div class="col-md-2">
+                              <label class="fieldlabels">Sunday: </label> </div>
+                              <div class="col">Hour/time<input type="text" name="time" placeholder="" /> </div>
+                              <div class="col">
+                              Activity<input type="text" name="time" placeholder="" /></div>
+                             </div>
+                        </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                  <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">NDIS Plan:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 3 - 5</h2>
+                                </div>
+                            </div> 
+                            <label class="fieldlabels">NDIS Plan Approved?</label>
+                            <div class="checkbox">
+                            <label class="fieldlabels">Yes </label> <input type="checkbox" name="uname"/> 
+                            <label class="fieldlabels">Pending(waiting response) </label> <input type="checkbox" name="uname" />
+                            <label class="fieldlabels">Not commenced </label> <input type="checkbox" name="uname"/> 
+                            <label class="fieldlabels">Not Applicable </label> <input type="checkbox" name="uname" />
+                            </div>
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">NDIS Number: </label> <input type="text" name="name" placeholder="NDIS Number " /></div> 
+                            <div class="col"><label class="fieldlabels">Plan Start Date: </label> <input type="date" name="date" placeholder="" /></div>
+                            <div class="col"><label class="fieldlabels">Plan End Date: </label> <input type="date" name="date" placeholder="" /></div> 
+                            </div>
+                           <label class="fieldlabels">If NDIS not funded,What is the Funding Source?</label>
+                            <input type="text" name="lname" placeholder="Funding Source" /> 
+                           <label class="fieldlabels">NDIS COS Details:</label>
+                           <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Name: </label> <input type="text" name="name" placeholder="Name" /></div> 
+                            <div class="col"><label class="fieldlabels">Organization: </label> <input type="text" name="date" placeholder="Organization" /></div>
+                            </div>
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Email: </label> <input type="email" name="name" placeholder="Email" /></div> 
+                            <div class="col"><label class="fieldlabels">Phone: </label> <input type="number" name="phone" placeholder="Phone" /></div>
+                            </div> 
+                           <label class="fieldlabels">Plan Management:</label> 
+                           <div class="checkbox">
+                            <label class="fieldlabels">Agency Managed </label> <input type="checkbox" name="uname"/> 
+                            <label class="fieldlabels">Plan managed </label> <input type="checkbox" name="uname" />
+                            <label class="fieldlabels">Self managed </label> <input type="checkbox" name="uname" /> 
+                        </div>
+                        <label class="fieldlabels">If Plan Managed, Contact Details of Plan Manager:</label>
+                           <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Name: </label> <input type="text" name="name" placeholder="Name" /></div> 
+                            <div class="col"><label class="fieldlabels">Organization: </label> <input type="text" name="date" placeholder="Organization" /></div>
+                            </div>
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Email: </label> <input type="email" name="name" placeholder="Email" /></div> 
+                            <div class="col"><label class="fieldlabels">Phone: </label> <input type="number" name="date" placeholder="Phone" /></div>
+                            </div>
+                        </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Contact Details:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 4 - 5</h2>
+                                </div>
+                            </div> 
+                            <label class="fieldlabels">Participant/Parent/Guardian:</label>
+                             <input type="text" name="name" placeholder="Participant/Parent/Guardian">
+                             <label class="fieldlabels">Address:</label>
+                             <input type="text" name="name" placeholder="Address">
+                             <label class="fieldlabels">Email:</label>
+                             <input type="email" name="name" placeholder="Email">
+                             <label class="fieldlabels">Contact Numbers:</label>
+                             <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Home: </label> <input type="number" name="name" placeholder="Home" /></div> 
+                            <div class="col"><label class="fieldlabels">Mobile: </label> <input type="number" name="number" placeholder="Mobile" /></div> 
+                            </div>
+                            <label class="fieldlabels">Date: </label> <input type="date" name="date" placeholder="" />
+                             <label class="fieldlabels">Signature Photo:</label>
+                              <input type="file" name="pic" accept="image/*">
+                        </div> <input type="button" name="next" class="next action-button" value="Next" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Contact Details:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 5 - 5</h2>
+                                </div>
+                            </div> 
+                            <label class="fieldlabels">Relationship to Client:</label> 
+                           <div class="checkbox">
+                            <label class="fieldlabels">Guardian (completed above,no further details required) </label> <input type="checkbox" name="uname"/> 
+                            <label class="fieldlabels">Coordinator of Supports (complete referrer details) </label> <input type="checkbox" name="uname" />
+                            </div>
+                             <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Organisation: </label> <input type="text" name="name" placeholder="Organisation" /></div> 
+                            <div class="col"><label class="fieldlabels">Name: </label> <input type="text" name="number" placeholder="Mobile" /></div> 
+                            </div>
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Contact Number: </label> <input type="Number" name="name" placeholder="Contact" /></div> 
+                            <div class="col"><label class="fieldlabels">Email: </label> <input type="email" name="email" placeholder="Mobile" /></div> 
+                            </div>
+                            <label class="fieldlabels">Postal Address: </label> <input type="text" name="name" placeholder="Postal Address" />
+                            <div class="row">
+                            <div class="col">
+                            <label class="fieldlabels">Signature Photo:</label>
+                              <input type="file" name="pic" accept="image/*"></div>
+                            <div class="col"><label class="fieldlabels">Date: </label> <input type="date" name="number" placeholder="Mobile" /></div> 
+                            </div>
+                        </div> <input type="button" name="next" class="next action-button" value="Submit" /> <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">Referer Details:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">Step 5 - 5</h2>
+                                </div>
+                            </div> <br><br>
+                            <h2 class="purple-text text-center"><strong>Submitted Successfully !</strong></h2> <br>
+                            <div class="row justify-content-center">
+                                <div class="col-3"> <img src="./img/icons8-tick-100.png" class="fit-image"> </div>
+                            </div> <br><br>
+                            <div class="row justify-content-center">
+                                <div class="col-7 text-center">
+                                    <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
+                                </div>
                             </div>
                         </div>
-                        <div class="mt-3">
-                            <label>If Other, Please Specify:</label>
-                            <input type="text" placeholder=" ">
-                        </div>
-                        <div class="mt-3">
-                            <label>Participant’s Primary Diagnosis / Primary Disability</label>
-                            <input type="textarea" placeholder=" ">
-                        </div>
-                        <div class="mt-3">
-                            <label for="address" class='required'>Please indicate how we can follow-up on your inquiry
-                                (ie. NDIS support
-                                etc.) </label>
-                            <textarea id="" name="" row-1="10" cols="50" placeholder=""></textarea>
-                        </div>
-                        <div class="mt-3">
-                            <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
-                            <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
-                        </div>
-                    </section>
-                    <!-- Step 3 Content, default hidden on page load. -->
-                    <section id="step-3" class="form-step d-none">
-                        <h2 class="font-normal">Refered By</h2>
-                        <!-- Step 3 input fields -->
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label for="first_name" class='required'>First Name<span style="color:red">*</span>
-                                </label>
-                                <input type="text" name="first_name" placeholder="Refferer First Name"
-                                    data-validation="required" />
-                            </div>
-                            <div class="mt-3 col">
-                                <label for="last_name" class='required'> Last Name<span style="color:red">*</span>
-                                </label>
-                                <input type="text" name="first_name" placeholder="Refferer First Name"
-                                    data-validation="required" />
-                            </div>
-                        </div>
-                        <div class="row-1">
-                            <div class="mt-3 col">
-                                <label>Phone Number<span style="color:red">*</span></label>
-                                <input type="number" placeholder="Enter Phone Number" data-validation="required">
-                            </div>
-                            <div class="mt-3 col">
-                                <label>Email<span style="color:red">*</span></label>
-                                <input type="email" placeholder="Enter Referer Email" data-validation="required">
-                            </div>
-                        </div>
-                        <div class="mt-3">
-                            <label>Position</label>
-                            <input type="text" placeholder="Referer Position">
-                        </div>
-                        <div class="mt-3">
-                            <label>Organisation Name (if applicable):</label>
-                            <input type="text" placeholder="">
-                        </div>
-                        <div class="mt-3">
-                            <label>Message:</label>
-                            <textarea id="" name="" row-1="10" cols="50" placeholder=""></textarea>
-                        </div>
-                        <div class="mt-3 ">
-                            <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
-                            <button class="button submit-btn" id="myInput" type="submit"
-                                onclick="return validateForm()">Save</button>
-                        </div>
-                    </section>
-                </div>
-            </form>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </div>
+</div>
+    </div>
+    
 
 
     <!-- JavaScript Libraries -->
