@@ -235,65 +235,48 @@
     font-size: 18px;
     color: var(--light);
 }
-
-
-.pageservice-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/our\ sercives-banner.jpeg) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pageservice-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pageservice-header .breadcrumb-item,
-.pageservice-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
-.pagerefer-header {
+.pageterm-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about.png) center center no-repeat;
     background-size: cover;
    
  }
 
-.pagerefer-header .breadcrumb-item+.breadcrumb-item::before {
+.pageterm-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
-.pagerefer-header .breadcrumb-item,
-.pagerefer-header .breadcrumb-item a {
+.pageterm-header .breadcrumb-item,
+.pageterm-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
-.pagepost-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/participation\ in\ community\,social\ and\ civic\ activities.jpeg) center center no-repeat;
+.pageprivacy-header {
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about.png) center center no-repeat;
     background-size: cover;
    
  }
 
-.pagepost-header .breadcrumb-item+.breadcrumb-item::before {
+.pageprivacy-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
-.pagepost-header .breadcrumb-item,
-.pagepost-header .breadcrumb-item a {
+.pageprivacy-header .breadcrumb-item,
+.pageprivacy-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
-.pagemental-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/mental\ health\ banner.jpeg) center center no-repeat;
+.pageimp-header {
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about.png) center center no-repeat;
     background-size: cover;
    
  }
 
-.pagemental-header .breadcrumb-item+.breadcrumb-item::before {
+.pageimp-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
-.pagemental-header .breadcrumb-item,
-.pagemental-header .breadcrumb-item a {
+.pageimp-header .breadcrumb-item,
+.pageimp-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }

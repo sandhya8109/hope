@@ -206,17 +206,17 @@
     font-size: 18px;
     color: var(--light);
 }
-.pagetesti-header {
+.pagecont-header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/Testimonial\ banner.jpeg) center center no-repeat;
     background-size: cover;
 }
 
-.pagetesti-header .breadcrumb-item+.breadcrumb-item::before {
+.pagecont-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
-.pagetesti-header .breadcrumb-item,
-.pagetesti-header .breadcrumb-item a {
+.pagecont-header .breadcrumb-item,
+.pagecont-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
@@ -237,66 +237,6 @@
 }
 
 
-.pageservice-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/our\ sercives-banner.jpeg) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pageservice-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pageservice-header .breadcrumb-item,
-.pageservice-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
-.pagerefer-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about.png) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pagerefer-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pagerefer-header .breadcrumb-item,
-.pagerefer-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
-.pagepost-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/participation\ in\ community\,social\ and\ civic\ activities.jpeg) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pagepost-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pagepost-header .breadcrumb-item,
-.pagepost-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
-.pagemental-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/mental\ health\ banner.jpeg) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pagemental-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pagemental-header .breadcrumb-item,
-.pagemental-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
 /*** Features ***/
 .feature-row {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);

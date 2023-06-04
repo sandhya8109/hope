@@ -236,7 +236,6 @@
     color: var(--light);
 }
 
-
 .pageservice-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/our\ sercives-banner.jpeg) center center no-repeat;
     background-size: cover;

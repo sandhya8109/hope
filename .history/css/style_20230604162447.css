@@ -252,21 +252,6 @@
     font-size: 18px;
     color: var(--light);
 }
-.pagerefer-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about.png) center center no-repeat;
-    background-size: cover;
-   
- }
-
-.pagerefer-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
-.pagerefer-header .breadcrumb-item,
-.pagerefer-header .breadcrumb-item a {
-    font-size: 18px;
-    color: var(--light);
-}
 .pagepost-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/participation\ in\ community\,social\ and\ civic\ activities.jpeg) center center no-repeat;
     background-size: cover;
