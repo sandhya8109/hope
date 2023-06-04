@@ -17,7 +17,8 @@ include('header.php');
 
 <style>
   header.masthead {
-    background: url(admin/assets/img/<?php echo $_SESSION['setting_cover_img'] ?>);
+    background-image: url("./background/work with us -banner.jpeg");
+
     background-repeat: no-repeat;
     background-size: cover;
   }
