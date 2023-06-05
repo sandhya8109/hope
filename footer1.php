@@ -48,7 +48,7 @@
                 margin-top: 10px;
             }
 
-            . py-5 {
+            .py-5 {
                 padding-top: 1rem !important;
                 padding-bottom: 2rem !important;
             }
