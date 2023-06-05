@@ -302,6 +302,9 @@ input[type=checkbox]
     form #ms-form div{
         width: 100%;
     }
+    p{
+        margin: 0;
+    }
     /* Add more styles for smaller screens */
 }
 @media screen and (max-width: 300px) {
