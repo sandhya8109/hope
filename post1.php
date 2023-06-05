@@ -84,7 +84,7 @@ include('nav.php')
             </div>
             <div class="col-md-6">
                 <img class="img-fluid"
-                    src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
+                    src="background/development of life skills.jpeg"
                     alt="Volunteer">
             </div>
         </div>

@@ -77,7 +77,7 @@ include('nav.php')
             </div>
             <div class="col-md-6">
                 <img class="img-fluid"
-                    src="https://www.hopeability.com.au/wp-content/uploads/2021/11/NDIS_Household_Tasks_image.jpg"
+                    src="background/assistance in life task.jpeg"
                     alt="Volunteer" width="100%" height="100%">
             </div>
         </div>

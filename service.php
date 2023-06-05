@@ -66,7 +66,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/03/respite-carenarrow-1.webp"
+                                    src="background/development of life skills.jpeg"
                                     style="height: 13rem" alt="HOPE">
                             </div>
                             <h5 class="mb-3">Development-Life Skills</h5>
@@ -84,8 +84,8 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Daily-Life-Tasks.jpg"
-                                    alt="Hope">
+                                    src="background/personal activities.jpeg"
+                                    alt="Hope" style="height: 13rem" width="100%">
                             </div>
                             <h5 class="mb-3">
                                 Personal Activities </h5>
@@ -103,7 +103,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/11/NDIS_Household_Tasks_image.jpg"
+                                    src="background/assistance in life task.jpeg"
                                     alt="Hope">
                             </div>
                             <h5 class="mb-3">Assistance Life Tasks</h5>
@@ -121,7 +121,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/03/Assistance-with-Travel-Image-1.webp"
+                                    src="background/assistance with travel.jpeg"
                                     alt="Hope">
                             </div>
                             <h5 class="mb-3">Assistance With Travel/Transport Arrangements</h5>
@@ -139,7 +139,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Social-And-Civic-Activities.jpg"
+                                    src="background/participation in community,social and civic activities.jpeg"
                                     alt="Hope">
                             </div>
                             <h5 class="mb-3">Participation In Community, Social And Civic Activities</h5>
@@ -157,7 +157,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="https://www.hopeability.com.au/wp-content/uploads/2021/03/NDIS_Household_Tasks_image.webp"
+                                    src="background/Household task.jpeg"
                                     alt="Icon">
                             </div>
                             <h5 class="mb-3">Household Task</h5>

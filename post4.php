@@ -82,7 +82,7 @@ include('nav.php')
             </div>
             <div class="col-md-6">
                 <img class="img-fluid"
-                    src="https://www.hopeability.com.au/wp-content/uploads/2021/03/Assistance-with-Travel-Image-1.webp"
+                    src="background/assistance with travel.jpeg"
                     alt="Volunteer" width="100%" height="100%">
 
             </div>

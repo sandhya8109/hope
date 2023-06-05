@@ -67,18 +67,8 @@ include('nav.php')
                     and
                     empower you to live as independently as possible. This service is available to anyone living in a
                     private rental, whether it’s with others or by yourself.</p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid"
-                    src="https://www.hopeability.com.au/wp-content/uploads/2021/11/Daily-Life-Tasks.jpg" alt="Volunteer"
-                    width="100%" height="100%">
-            </div>
-        </div>
-        <br />
-        <br />
-        <div class="container-fluid" style="font-size: 1.2rem">
-            <h4>We provide help with all the three levels of Supported Independent Living arrangements</h4>
-            <ul>
+                    <h4>We provide help with all the three levels of Supported Independent Living arrangements</h4>
+            <ul style="font-size: 1.2rem">
                 <li><strong>Lower Needs:</strong>Typically, not 24/7, providing supervision of living arrangements to
                     ensure your home is right for you.</li>
                 <li><strong>Standard Needs:</strong>Providing active assistance and supervision for most daily tasks,
@@ -86,6 +76,18 @@ include('nav.php')
                 <li><strong>Higher Needs:</strong>Highly frequent assistance, active assistance with all daily tasks,
                     and support in managing challenging behaviors.</li>
             </ul>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-fluid"
+                    src="background/personal activities.jpeg" alt="Volunteer"
+                    width="100%">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container-fluid" style="font-size: 1.2rem">
+            
 
             <h4>We provide you as little or as much support you need including but not limited
                 to:</h4>
