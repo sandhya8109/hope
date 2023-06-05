@@ -138,9 +138,9 @@ include('nav.php');
             <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="background/development of life skills.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/service.jpg" alt="">
                         <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="background/development of life skills.jpeg"
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./assets/img/service.jpg"
                                 data-lightbox="project"><i class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -153,10 +153,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" style="height:270px" src="background/personal activities.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/front-view-smiley-girl-woman-indoors.jpg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/personal activities.jpeg" data-lightbox="project"><i
+                                href="./assets/img/front-view-smiley-girl-woman-indoors.jpg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -169,10 +169,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="background/assistance in life task.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/hope-ability-about.jpg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/assistance in life task.jpeg" data-lightbox="project"><i
+                                href="./assets/img/hope-ability-about.jpg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -185,10 +185,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="background/participation in community,social and civic activities.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/pexels-photo-5068681.jpeg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/participation in community,social and civic activities.jpeg" data-lightbox="project"><i
+                                href="./assets/img/pexels-photo-5068681.jpeg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -201,10 +201,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="background/assistance with travel.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/full-shot-woman-with-crutches.jpg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/assistance with travel.jpeg" data-lightbox="project"><i
+                                href="./assets/img/full-shot-woman-with-crutches.jpg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -219,10 +219,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" src="background/Household task.jpeg" alt="">
+                        <img class="img-fluid" src="./assets/img/pexels-photo-7698665.jpeg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/Household task.jpeg" data-lightbox="project"><i
+                                href="./assets/img/pexels-photo-7698665.jpeg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
