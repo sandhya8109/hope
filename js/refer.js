@@ -74,4 +74,74 @@ $(document).ready(function(){
     })
     
     });
+<<<<<<< Updated upstream
+=======
+    // Form validation
+    // const form = document.getElementById('msform');
+    // form.addEventListener('submit', validateForm());
+    // form.onsubmit(validateForm()
+
+    // function validateForm(event) {
+    //     alert("Hello");
+    //     event.preventDefault();
+
+    //     const fullName = document.getElementById('fullName');
+    //     const dob = document.getElementById('dob');
+    //     const gender = document.getElementById('gender');
+    //     const residentialAddress = document.getElementById('residentialAddress');
+    //     const contactNumber = document.getElementById('contactNumber');
+    //     const identification = document.getElementsByName('identification');
+    //     const interpreterRequired = document.getElementsByName('interpreterRequired');
+    //     const preferredLanguage = document.getElementById('preferredLanguage');
+    //     const culturalLeader = document.getElementsByName('culturalLeader');
+    //     const ratioOfCare = document.getElementById('ratioOfCare');
+    //     const communityAccess = document.getElementById('communityAccess');
+    //     const ndisStartDate = document.getElementById('ndisStartDate');
+    //     const ndisEndDate = document.getElementById('ndisEndDate');
+    //     const contactPersonName = document.getElementById('contactPersonName');
+    //     const relationshipToParticipant = document.getElementById('relationshipToParticipant');
+    //     const contactPersonContact = document.getElementById('contactPersonContact');
+    //     const referrerName = document.getElementById('referrerName');
+    //     const referrerContact = document.getElementById('referrerContact');
+
+    //     // Validate all the fields
+    //      if (
+    //         !fullName.value ||
+    //         !dob.value ||
+    //         !gender.value ||
+    //         !residentialAddress.value ||
+    //         !contactNumber.value ||
+    //         !getRadioValue(identification) ||
+    //         !getRadioValue(interpreterRequired) ||
+    //         !preferredLanguage.value ||
+    //         !getRadioValue(culturalLeader) ||
+    //         !ratioOfCare.value ||
+    //         !communityAccess.value ||
+    //         !ndisStartDate.value ||
+    //         !ndisEndDate.value ||
+    //         !contactPersonName.value ||
+    //         !relationshipToParticipant.value ||
+    //         !contactPersonContact.value ||
+    //         !referrerName.value ||
+    //         !referrerContact.value
+    //     ) {
+    //         alert('Please fill in all the required fields.');
+    //         return;
+    //     }
+
+    //     // You can perform additional validation if required
+
+    //     // Submit the form if all validation passes
+    //     form.submit();
+    // }
+
+    function getRadioValue(radioElements) {
+        for (let i = 0; i < radioElements.length; i++) {
+            if (radioElements[i].checked) {
+                return radioElements[i].value;
+            }
+        }
+        return '';
+    }
+>>>>>>> Stashed changes
 

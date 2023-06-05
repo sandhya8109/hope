@@ -202,7 +202,7 @@ input[type=checkbox]
 }
 
 .fieldlabels {
-    color: gray;
+    color: rgb(70, 69, 69);
     text-align: left;
 }
 
