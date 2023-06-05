@@ -89,8 +89,7 @@
 
             </div>
             <div class="col-lg-3 col-md-6">
-                <img class="w-100" src="img/ndis-logo-purple.jpg" alt="Image"
-                    style="background:#fff; border: 1px solid purple;">
+                <img class="w-100" src="background/NDISnew.png" alt="Image">
             </div>
 
         </div>

@@ -238,11 +238,7 @@
 
 
 .pageservice-header {
-<<<<<<< Updated upstream
-    background: linear-gradient(rgba(206, 200, 200, 0.1), rgba(196, 158, 158, 0.1)), url(../background/service.png) center center no-repeat;
-=======
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/service.jpg) center center no-repeat;
->>>>>>> Stashed changes
     background-size: cover;
    
  }
@@ -533,7 +529,6 @@
 /*** Team ***/
 .team-item {
     position: relative;
-    text-align: center;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
