@@ -54,7 +54,7 @@ include('nav.php')
     <!-- Page Header End -->
     <!--content-->
     <div class="container" style="text-align: justify;">
-        <div class="row">
+        <div class="row" style="height: 50rem">
             <div class="col-md-6">
                 <h2>Assistance With Daily Life Tasks In A Group Or Shared Living Arrangement</h2>
                 <p style="font-size: 1.2rem">We provide assistance with and/or supervising tasks of daily life in a
@@ -66,7 +66,7 @@ include('nav.php')
                     a shared living environment. The aim of SIL is to help you develop and build your individual skills
                     and
                     empower you to live as independently as possible. This service is available to anyone living in a
-                    private rental, whether it’s with others or by yourself.</p>
+                    private rental, whether it's with others or by yourself.</p>
                     <h4>We provide help with all the three levels of Supported Independent Living arrangements</h4>
             <ul style="font-size: 1.2rem">
                 <li><strong>Lower Needs:</strong>Typically, not 24/7, providing supervision of living arrangements to
@@ -77,20 +77,14 @@ include('nav.php')
                     and support in managing challenging behaviors.</li>
             </ul>
             </div>
-
             <div class="col-md-6">
                 <img class="img-fluid"
                     src="background/personal activities.jpeg" alt="Volunteer"
-                    width="100%">
+                    width="100%" style="height: 80%">
             </div>
         </div>
-        <br />
-        <br />
         <div class="container-fluid" style="font-size: 1.2rem">
-            
-
-            <h4>We provide you as little or as much support you need including but not limited
-                to:</h4>
+            <h4>We provide you as little or as much support you need including but not limited to:</h4>
             <ul>
                 <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
                     or chair to wheelchair or toilet.</li>
