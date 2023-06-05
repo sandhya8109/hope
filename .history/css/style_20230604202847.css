@@ -238,10 +238,11 @@
 
 
 .pageservice-header {
-    background: linear-gradient(rgba(206, 200, 200, 0.1), rgba(196, 158, 158, 0.1)), url(../background/service.png) center center no-repeat;
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/service.png) center center no-repeat;
     background-size: cover;
-   
- }
+    width: 1819px;
+    height: 393px;
+}
 
 .pageservice-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);

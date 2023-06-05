@@ -238,7 +238,7 @@
 
 
 .pageservice-header {
-    background: linear-gradient(rgba(206, 200, 200, 0.1), rgba(196, 158, 158, 0.1)), url(../background/service.png) center center no-repeat;
+    background: linear-gradient(rgba(9, 9, 9, 0.1), rgba(146, 145, 145, 0.1)), url(../background/service.png) center center no-repeat;
     background-size: cover;
    
  }
