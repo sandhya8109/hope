@@ -60,8 +60,18 @@ include('nav.php')
   </div>
   <!-- Page Header End -->
   <!-- Content start -->
-  <h2 class="mb-4">Forensic Disability Support (FDS)</h2>
-  <p class="mb-4">Assisting Participants with Intellectual Disabilities in the Criminal Justice System.</p>
+  <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="background/mental health inside.jpeg"
+                            alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Forensic Disability Support (FDS)</h1>
+                    <p class="mb-4">Assisting Participants with Intellectual Disabilities in the Criminal Justice System.</p>
   <p class="mb-4">Welcome to our FDS team, dedicated to providing crucial support for individuals with intellectual
     disabilities who are involved in the criminal justice system. We understand the unique challenges and
     vulnerabilities they face, which often contribute to relapses and repeated encounters with the legal system.</p>
@@ -76,8 +86,18 @@ include('nav.php')
     effectively while accessing the disability support available under the National Disability Insurance Scheme (NDIS)
     and mainstream services. </p>
 
-  <h2 class="mb-4">Complex Mental Health Support </h2>
-  <p class="mb-4">Complex mental health support involves comprehensive and individualized assistance for individuals
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Complex Mental Health Support</h1>
+                    <p class="mb-4">Complex mental health support involves comprehensive and individualized assistance for individuals
     facing intricate mental health conditions. It recognizes the interplay of factors like trauma, comorbidity,
     neurobiology, and resilience. This support takes a holistic approach, providing a range of interventions tailored to
     meet the unique needs of everyone. The goal is to improve overall well-being, reduce symptom severity, and promote
@@ -125,12 +145,23 @@ include('nav.php')
       shifts in mood, energy levels, and activity levels. Individuals with bipolar disorder experience episodes of mania
       or hypomania (elevated mood and increased energy) alternating with episodes of depression (low mood and decreased
       energy).</p>
-  </div>
+      
+                </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="background/mental health inside.jpeg"
+                            alt="" style="object-fit: cover;">
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
   <style>
     .collapsible {
       color: black;
       cursor: pointer;
-      padding: 1rem;
+      padding-bottom: 1rem;
       background-color: transparent;
       border: none;
       text-align: left;
@@ -183,8 +214,20 @@ include('nav.php')
     }
   </script>
 
-  <h2 class="mb-4">Transition and Reintegration in community </h2>
-  <p class="mb-4">Community reintegration for justice participants is a critical process that involves facilitating
+
+<br><br>
+<div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="background/mental health inside.jpeg"
+                            alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Transition and Reintegration in community</h1>
+                    <p class="mb-4">Community reintegration for justice participants is a critical process that involves facilitating
     their successful transition back into society after serving their sentences or being involved with the criminal
     justice system. It focuses on supporting individuals to reintegrate into their communities, rebuild their lives
     while living with disability, and reduce the risk of reoffending.</p>
@@ -195,10 +238,17 @@ include('nav.php')
   <p class="mb-4">Our approach to community reintegration emphasizes collaboration with local community organizations,
     government agencies, and relevant stakeholders. By working together, we aim to create a supportive and inclusive
     environment that promotes the successful reintegration of participants into society.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+  
   <style>
     h2,
     p {
-      padding: 0 2rem 0 2rem;
+      padding: 0 1rem 0 0rem;
       text-align: justify;
     }
 
