@@ -128,14 +128,18 @@ include('nav.php')
                                     <div class="col">
                                         <label class="fieldlabels">Does the Participant identify as: </label>
                                         <div class="radio">
-                                            <label class="fieldlabels">Aboriginal </label> <input type="radio" name="a"
-                                                id="a" value="Aboriginal" />
-                                            <label class="fieldlabels">Torres Strait </label> <input type="radio"
-                                                name="t" id="t" value="Torres Strait" />
-                                            <label class="fieldlabels">Both </label> <input type="radio" name="b" id="b"
-                                                value="Torres Strait & Aboriginal" />
-                                            <label class="fieldlabels">Neither </label> <input type="radio" name="n"
-                                                id="n" value="neither Torres Strait & Aboriginal" />
+                                            <div class="d-flex">
+                                                <label class="fieldlabels">Aboriginal </label> <input type="radio"
+                                                    name="a" id="a" value="Aboriginal" />
+                                            </div>
+                                            <div class="d-flex"><label class="fieldlabels">Torres Strait </label> <input
+                                                    type="radio" name="t" id="t" value="Torres Strait" /></div>
+                                            <div class="d-flex"><label class="fieldlabels">Both </label> <input
+                                                    type="radio" name="b" id="b" value="Torres Strait & Aboriginal" />
+                                            </div>
+                                            <div class="d-flex"><label class="fieldlabels">Neither </label> <input
+                                                    type="radio" name="n" id="n"
+                                                    value="neither Torres Strait & Aboriginal" /></div>
                                         </div>
                                     </div>
                                     <div class=" col"><label class="fieldlabels">Has the Participant consented to this

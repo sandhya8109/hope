@@ -1,0 +1,331 @@
+
+.container-1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .container-1 label.required::after {
+    content: '*';
+    color: red;
+  }
+  
+  .page-header {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/refer.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .page-header-inner {
+    background: rgba(15, 23, 43, .7);
+  }
+  
+  .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+  }
+
+h1 {
+    text-align: center;
+}
+h2 {
+  margin-top: 3rem;
+  
+}
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #874a84;
+    font-weight: normal
+}
+#drop-down{
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    height: 2.6rem;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+input[type=radio]
+{
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+
+.radio{
+    margin-top: 1rem;
+    display: block;
+    justify-self: center;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+input[type=checkbox]
+{
+    width: 1.5rem;
+    height: 1rem;
+}
+.checkbox{
+    margin-top: 1.5rem 0 1.5rem 0;
+    display:flex;
+    
+}
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #274a84;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #274a84;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #57c6e4;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative;
+    width: 63rem;
+    justify-content: center;
+}
+
+.fs-title {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: black;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: rgb(70, 69, 69);
+    text-align: left;
+}
+.radio-label {
+    display: block;
+    margin-bottom:2px;
+}
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #274a84
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 20%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "1"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "2"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "3"
+}
+#progressbar #new:before {
+    font-family: FontAwesome;
+    content: "4"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "5"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #274a84
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #274a84
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+@media (max-width: 700px) {
+    /* Styles for screens smaller than 600px */
+    /* Adjust the layout and styling as needed */
+    .col {
+        width: 100%;
+    }
+    .progress-bar {
+        display: none;
+    }
+    form #ms-form div{
+        width: 100%;
+    }
+    p{
+        margin: 0;
+    }
+    /* Add more styles for smaller screens */
+}
+@media screen and (max-width: 300px) {
+    /* Styles for screens with maximum width of 600px */
+    /* Adjust the layout and size of the elements as needed */
+    .col {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .checkbox {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    /* Add more responsive styles as needed */
+  }
+

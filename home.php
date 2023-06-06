@@ -67,7 +67,7 @@ include 'admin/db_connect.php';
             <h1 class="section-title bg-white text-center text-primary px-3">Our Current Vacancy
             </h1>
         </div>
-        <hr class="divider">
+        <hr class="divider" style="line-width:100%;">
 
         <?php
         $vacancy = $conn->query("SELECT * FROM vacancy order by date(date_created) desc ");
@@ -89,7 +89,8 @@ include 'admin/db_connect.php';
 
 
                     <!--  <hr class="divider border-dark" style="max-width: calc(80%)">-->
-                    <button class="btn" style="background-color:#274a84; color:#fff;"> Apply Now</button>
+                    <button class="btn" style="background-color:#274a84; color:#fff;">
+                        Apply Now</button>
                 </div>
             </div>
             <br>

@@ -70,10 +70,15 @@ input[type=radio]
     width: 1.5rem;
     height: 1.2rem;
 }
+
+
 .radio{
     margin-top: 1rem;
     display: block;
     justify-self: center;
+    align-items: center;
+}
+.d-flex{
 }
 input[type=checkbox]
 {
@@ -205,7 +210,10 @@ input[type=checkbox]
     color: rgb(70, 69, 69);
     text-align: left;
 }
-
+.radio-label {
+    display: block;
+    margin-bottom:2px;
+}
 #progressbar {
     margin-bottom: 30px;
     overflow: hidden;
