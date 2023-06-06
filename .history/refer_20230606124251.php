@@ -501,8 +501,8 @@ include('nav.php')
                                     placeholder="Postal Address" />
                                 <div class="row">
                                     <div class="col">
-                                        <label class="fieldlabels">Signature</label>
-                                        <input type="text" name="SP" id="SP">
+                                        <label class="fieldlabels">Signature Photo:</label>
+                                        <input type="file" name="SP" id="SP" accept="image/*">
                                     </div>
                                     <div class="col"><label class="fieldlabels">Date: </label> <input type="date"
                                             name="D" id="D" placeholder="Mobile" /></div>
@@ -527,7 +527,7 @@ include('nav.php')
                                 </div> <br><br>
                                 <div class="row justify-content-center">
                                     <div class="col-7 text-center">
-                                        <h5 class="purple-text text-center">Thank you for your referral</h5>
+                                        <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
                                     </div>
                                 </div>
                             </div>
