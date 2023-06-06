@@ -527,7 +527,7 @@ include('nav.php')
                                 </div> <br><br>
                                 <div class="row justify-content-center">
                                     <div class="col-7 text-center">
-                                        <h5 class="purple-text text-center">Thank you for your referral</h5>
+                                        <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
                                     </div>
                                 </div>
                             </div>
