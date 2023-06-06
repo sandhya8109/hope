@@ -153,10 +153,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" style="height:270px" src="background/personal activities.jpeg" alt="">
+                        <img class="img-fluid" style="height:270px;" src="background/personal activities.png" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/personal activities.jpeg" data-lightbox="project"><i
+                                href="background/personal activities.png" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -439,8 +439,8 @@ include('nav.php');
 
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <img class="w-100" src="img/ndis-logo-purple.jpg" alt="Image"
-                        style="background:#fff; border: 1px solid purple;">
+                    <img class="w-100" src="background/NDISnew.png" alt="Image">
+                        
                 </div>
 
             </div>

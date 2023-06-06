@@ -665,9 +665,9 @@
 
     .testimonial-carousel .owl-nav .owl-prev,
     .testimonial-carousel .owl-nav .owl-next {
-        margin: 0 7px;
-        width: 45px;
-        height: 45px;
+        margin: 30px 7px;
+        width: 30px;
+        height: 30px;
         font-size: 20px;
     }
 }

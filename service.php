@@ -84,7 +84,7 @@ include('nav.php')
                         <div class="service-text rounded p-5">
                             <div class="mb-4 mx-auto">
                                 <img class="img-fluid"
-                                    src="background/personal activities.jpeg"
+                                    src="background/personal activities.png"
                                     alt="Hope" style="height: 13rem" width="100%">
                             </div>
                             <h5 class="mb-3">
