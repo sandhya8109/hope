@@ -18,7 +18,8 @@ include('header.php');
 <style>
   header.masthead {
     background-image: url("./background/work with us -banner.jpeg");
-
+height:393px;
+width:100%;
     background-repeat: no-repeat;
     background-size: cover;
   }

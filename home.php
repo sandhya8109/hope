@@ -18,7 +18,7 @@ include 'admin/db_connect.php';
         background: yellow;
     }
 </style>
-<header class="masthead">
+<header class="container-fluid pagework-header py-5 mb-5 wow fadeIn" style="height:252px;">
     <div class="container text-center py-5">
         <h1 class="display-2 text-white mb-4 animated slideInDown">Work With us</h1>
         <nav aria-label="breadcrumb animated slideInDown">
