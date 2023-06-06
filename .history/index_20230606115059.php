@@ -63,14 +63,14 @@ include('nav.php');
                     ?>
 
                     <div class="carousel-item <?php echo ($i == 0) ? 'active' : ''; ?>">
-                        <img class="w-100" src="<?php echo $image1; ?>" style="height: 680px; " alt=" Image">
+                        <img class="w-100" src="<?php echo $image1; ?>"
+                            style="height: 680px; background: rgba(100,120,140,.7);" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-start">
                                     <div class="col-lg-7 text-start">
                                         <p class="fs-4 text-white animated slideInRight">Welcome to
-                                            <strong style="  text-shadow: 2px 2px #274a84;">Hope
-                                                Ability</strong>
+                                            <strong>Hope Ability</strong>
                                         </p>
                                         <h1 class="display-1 text-white mb-5 animated slideInRight">
                                             <?php echo $banner['title']; ?>
@@ -118,9 +118,9 @@ include('nav.php');
 
                     <h1 class="mb-4">We're All About Trust</h1>
                     <p class="mb-4">Hope Ability management has years of experience in disability services along with
-                        extensive experience in clients focused services. Our vision is to empower participants to take
-                        ownership of their life</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="./aboutus.php">Read More</a>
+                        extensive experience in customer focused public and private sector. Our vision is to empower
+                        participants to take ownership of their life.</p>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="./about.php">Read More</a>
                 </div>
             </div>
         </div>
@@ -154,10 +154,10 @@ include('nav.php');
                 </div>
                 <div class="project-item mb-5">
                     <div class="position-relative">
-                        <img class="img-fluid" style="height:270px;" src="background/personal activities.png" alt="">
+                        <img class="img-fluid" style="height:270px" src="background/personal activities.jpeg" alt="">
                         <div class="project-overlay">
                             <a class="btn btn-lg-square btn-light rounded-circle m-1"
-                                href="background/personal activities.png" data-lightbox="project"><i
+                                href="background/personal activities.jpeg" data-lightbox="project"><i
                                     class="fa fa-eye"></i></a>
                             <a class="btn btn-lg-square btn-light rounded-circle m-1" href="./service.php"><i
                                     class="fa fa-link"></i></a>
@@ -441,8 +441,8 @@ include('nav.php');
 
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <img class="w-100" src="background/NDISnew.png" alt="Image">
-                        
+                    <img class="w-100" src="img/ndis-logo-purple.jpg" alt="Image"
+                        style="background:#fff; border: 1px solid purple;">
                 </div>
 
             </div>

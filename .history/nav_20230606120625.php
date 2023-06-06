@@ -53,8 +53,8 @@
                     <a href="./imp.php" style="color:#fff;"><small class="ms-4"><i
                                 class="fa fa-download me-3"></i>Important
                             Documents</small></a>
-                    <a href="./workwithus.php" style="color:#fff;"><small class="ms-4"><i
-                                class="fa fa-user-plus me-3"></i>Work With us</small>
+                    <a href="./refer.php" style="color:#fff;"><small class="ms-4"><i
+                                class="fa fa-user-plus me-3"></i>Referrals</small>
                         <div class="ms-3 d-flex">
                     </a>
                     <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2" href=""><i
@@ -89,7 +89,7 @@
                         <a href="./aboutus.php" class="nav-item nav-link">About</a>
                         <a href="./mental.php" class="nav-item nav-link">Mental Health</a>
                         <a href="./contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="./refer.php" class="nav-item nav-link">Referral</a>
+                        <a href="./refer.php.php" class="nav-item nav-link">Referral</a>
                         <a href="./testimonial.php" class="nav-item nav-link">Testimonials</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">

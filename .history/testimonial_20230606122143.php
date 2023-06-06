@@ -158,7 +158,8 @@ include('nav.php')
 
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <img class="w-100" src="background/NDISnew.png" alt="Image">
+                    <img class="w-100" src="background/NDISnew.png" alt="Image"
+                        style="background:#fff; border: 1px solid purple;">
                 </div>
 
             </div>

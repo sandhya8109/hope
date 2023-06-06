@@ -89,7 +89,7 @@
                         <a href="./aboutus.php" class="nav-item nav-link">About</a>
                         <a href="./mental.php" class="nav-item nav-link">Mental Health</a>
                         <a href="./contact.php" class="nav-item nav-link">Contact</a>
-                        <a href="./refer.php" class="nav-item nav-link">Referral</a>
+                        <a href="./refer.php.php" class="nav-item nav-link">Referral</a>
                         <a href="./testimonial.php" class="nav-item nav-link">Testimonials</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">

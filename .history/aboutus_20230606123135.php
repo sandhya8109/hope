@@ -65,8 +65,8 @@ include('nav.php')
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="./background/about us main photo.jpeg"
-                            alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/hope-ability-about.jpg" alt=""
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -103,25 +103,6 @@ include('nav.php')
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-
-                    <p class="mb-4" style="text-align:justify">The company director, Shashi Ray, possesses extensive
-                        professional experience of over 15 years in the field of Disability, encompassing areas such as
-                        Child Protection, Mental Health, and the National Disability Insurance Scheme (NDIS) within
-                        Australia and internationally.</p>
-                    <p class="mb-4" style="text-align:justify">Shashi has demonstrated a diverse professional
-                        background, having resided, and worked in various regions of the Northern Territory in different
-                        capacities within the Mental Health and Disability Sector. Shashi has fulfilled roles such as
-                        Supervisor for an Out-of-Home Care program with Territory Family, House Supervisor for the
-                        Forensic Disability Unit taking care of vulnerable individuals within custodial settings.
-                        Additionally, he has served local communities as a Local Area Coordinator (LAC) and Senior
-                        Complex Support Need (CSN) Planner under the National Disability Insurance Scheme (NDIS). In
-                        these roles, Shashi has provided invaluable support to forensic participants in navigating the
-                        Justice system, facilitating their transition from custodial settings, and facilitating their
-                        successful reintegration into the community</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="./refer.php">Get Started</a>
-
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4 position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="img/team-2.jpg" alt="">
                         <ul class="team-social">
@@ -133,6 +114,26 @@ include('nav.php')
                         </ul>
                     </div>
                     <h5 class="text-center">Shashi Ray / <span class="text-primary text-center">Director</span></h5>
+
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="mb-4" style="text-align:justify">The company director, Shashi Ray, possesses extensive
+                        professional experience of
+                        over 15 years in the field of Disability, encompassing areas such as Child Protection, Mental
+                        Health, and the National Disability Insurance Scheme (NDIS) within Australia and
+                        internationally.</p>
+                    <p class="mb-4" style="text-align:justify">Shashi has demonstrated a diverse professional
+                        background, having resided, and
+                        worked in various regions of the Northern Territory in different capacities within the Mental
+                        Health and Disability Sector. Shashi has fulfilled roles such as Supervisor for an Out-of-Home
+                        Care program with Territory Family, House Supervisor for the Forensic Disability Unit taking
+                        care of vulnerable individuals within custodial settings. Additionally, he has served local
+                        communities as a Local Area Coordinator (LAC) and Senior Complex Support Need (CSN) Planner
+                        under the National Disability Insurance Scheme (NDIS). In these roles, Shashi has provided
+                        invaluable support to forensic participants in navigating the Justice system, facilitating their
+                        transition from custodial settings, and facilitating their successful reintegration into the
+                        community.</p>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="./contact.php">Get Started</a>
                 </div>
             </div>
         </div>

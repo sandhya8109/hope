@@ -65,19 +65,18 @@ include('nav.php')
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="./background/about us main photo.jpeg"
-                            alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/hope-ability-about.jpg" alt=""
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="mb-4">We Combine Experience And Empathy</h1>
-                    <p class="mb-4">Hope Ability has extensive experience in providing support for individuals with
-                        disabilities, including those with complex Mental Health, Forensic Disability, and NDIS <strong>
-                            support </strong> requirements. We are a local organization based in <strong>Darwin,
-                            Northern
-                            Territory </strong>and registered with the NDIS. Our mission is to empower people with a
-                        disability to
-                        engage in opportunities of their choice in a supported and inclusive environment.</p>
+                    <p class="mb-4">Hope Ability management has years of experience in disability services along with
+                        extensive experience in customer focused public and private sector. Our vision is to empower
+                        participants to take ownership of their life. We provide services to people of all abilities,
+                        backgrounds, preferences, and lifestyles. It is important for us at Hope Ability to not only
+                        provide support services that are respectful and offer dignity to participants, but also to
+                        create a safe and inclusive working environment for our staff.</p>
                     <p class="mb-4">We have embedded person-centered support in our mission to ensure all staff treat
                         our participants the way they would like to be treated. Participants are given the freedom to
                         make their own delivery choices and are provided access to their preferred health services.
@@ -88,7 +87,7 @@ include('nav.php')
                         an enhanced quality of life. Participants are supported to integrate within their community,
                         with family and friends, in a manner that assists them to meet their goals by having their views
                         and input valued, which is their legal and human right.</p>
-
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="./contact.php">Get Started</a>
                 </div>
             </div>
         </div>
@@ -103,25 +102,6 @@ include('nav.php')
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-
-                    <p class="mb-4" style="text-align:justify">The company director, Shashi Ray, possesses extensive
-                        professional experience of over 15 years in the field of Disability, encompassing areas such as
-                        Child Protection, Mental Health, and the National Disability Insurance Scheme (NDIS) within
-                        Australia and internationally.</p>
-                    <p class="mb-4" style="text-align:justify">Shashi has demonstrated a diverse professional
-                        background, having resided, and worked in various regions of the Northern Territory in different
-                        capacities within the Mental Health and Disability Sector. Shashi has fulfilled roles such as
-                        Supervisor for an Out-of-Home Care program with Territory Family, House Supervisor for the
-                        Forensic Disability Unit taking care of vulnerable individuals within custodial settings.
-                        Additionally, he has served local communities as a Local Area Coordinator (LAC) and Senior
-                        Complex Support Need (CSN) Planner under the National Disability Insurance Scheme (NDIS). In
-                        these roles, Shashi has provided invaluable support to forensic participants in navigating the
-                        Justice system, facilitating their transition from custodial settings, and facilitating their
-                        successful reintegration into the community</p>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="./refer.php">Get Started</a>
-
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4 position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="img/team-2.jpg" alt="">
                         <ul class="team-social">
@@ -133,6 +113,25 @@ include('nav.php')
                         </ul>
                     </div>
                     <h5 class="text-center">Shashi Ray / <span class="text-primary text-center">Director</span></h5>
+
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="mb-4" style="text-align:justify">The company director, Shashi Ray, possesses extensive
+                        professional experience of
+                        over 15 years in the field of Disability, encompassing areas such as Child Protection, Mental
+                        Health, and the National Disability Insurance Scheme (NDIS) within Australia and
+                        internationally.</p>
+                    <p class="mb-4" style="text-align:justify">Shashi has demonstrated a diverse professional
+                        background, having resided, and
+                        worked in various regions of the Northern Territory in different capacities within the Mental
+                        Health and Disability Sector. Shashi has fulfilled roles such as Supervisor for an Out-of-Home
+                        Care program with Territory Family, House Supervisor for the Forensic Disability Unit taking
+                        care of vulnerable individuals within custodial settings. Additionally, he has served local
+                        communities as a Local Area Coordinator (LAC) and Senior Complex Support Need (CSN) Planner
+                        under the National Disability Insurance Scheme (NDIS). In these roles, Shashi has provided
+                        invaluable support to forensic participants in navigating the Justice system, facilitating their
+                        transition from custodial settings, and facilitating their successful reintegration into the
+                        community.</p>
                 </div>
             </div>
         </div>

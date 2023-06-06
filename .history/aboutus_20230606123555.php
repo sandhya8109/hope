@@ -102,8 +102,7 @@ include('nav.php')
                 <h1 class="display-5 mb-5">Meet our Director</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <p class="mb-4" style="text-align:justify">The company director, Shashi Ray, possesses extensive
                         professional experience of over 15 years in the field of Disability, encompassing areas such as
                         Child Protection, Mental Health, and the National Disability Insurance Scheme (NDIS) within
@@ -119,22 +118,23 @@ include('nav.php')
                         Justice system, facilitating their transition from custodial settings, and facilitating their
                         successful reintegration into the community</p>
                     <a class="btn btn-primary py-3 px-5 mt-2" href="./refer.php">Get Started</a>
-
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item rounded overflow-hidden pb-4 position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/team-2.jpg" alt="">
-                        <ul class="team-social">
-                            <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a class="btn btn-square" href="https://twitter.com/Hopeabilityau"><i
-                                        class="fab fa-twitter"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
-                            <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                    <h5 class="text-center">Shashi Ray / <span class="text-primary text-center">Director</span></h5>
                 </div>
             </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="team-item rounded overflow-hidden pb-4 position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/team-2.jpg" alt="">
+                    <ul class="team-social">
+                        <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="btn btn-square" href="https://twitter.com/Hopeabilityau"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a class="btn btn-square" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <h5 class="text-center">Shashi Ray / <span class="text-primary text-center">Director</span></h5>
+
+            </div>
+
         </div>
     </div>
 

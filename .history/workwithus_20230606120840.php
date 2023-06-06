@@ -70,7 +70,7 @@ include('header.php');
             <a href="./aboutus.php" class="nav-item nav-link">About</a>
             <a href="./mental.php" class="nav-item nav-link">Mental Health</a>
             <a href="./contact.php" class="nav-item nav-link">Contact</a>
-            <a href="./refer.php" class="nav-item nav-link">Referral</a>
+            <a href="./workwithus.php" class="nav-item nav-link">Work With Us</a>
             <a href="./testimonial.php" class="nav-item nav-link">Testimonials</a>
           </div>
           <div class="ms-auto d-none d-lg-block">
@@ -195,7 +195,8 @@ include('header.php');
 
         </div>
         <div class="col-lg-3 col-md-6">
-          <img class="w-100" src="background/NDISnew.png" alt="Image">
+          <img class="w-100" src="img/ndis-logo-purple.jpg" alt="Image"
+            style="background:#fff; border: 1px solid purple;">
         </div>
 
       </div>
