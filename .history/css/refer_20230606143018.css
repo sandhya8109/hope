@@ -208,7 +208,6 @@ input[type=checkbox]
 .fieldlabels {
     color: rgb(70, 69, 69);
     text-align: left;
-    width: 100%;
 }
 .radio-label {
     display: block;

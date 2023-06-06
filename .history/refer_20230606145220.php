@@ -165,12 +165,14 @@ include('nav.php')
                                     name="status" placeholder=" (eg. verbal,sign etc)" />
                                 <label class="fieldlabels">Communication assessment:</label>
                                 <div class="checkbox">
-                                    <label class="fieldlabels">Completed and attached </label> <input type="checkbox"
-                                        name="complete" id="complete" value="Completed and attached" />
-                                    <label class="fieldlabels">Not available </label> <input type="checkbox" name="not"
-                                        id="not" value="Not available" />
-                                    <label class="fieldlabels">Not applicable </label> <input type="checkbox" name="nap"
-                                        id="nap" value="Not Applicable" />
+                                    <div class="d-flex"><label class="fieldlabels">Completed and attached </label>
+                                        <input type="checkbox" name="complete" id="complete"
+                                            value="Completed and attached" />
+                                    </div>
+                                    <div class="d-flex"><label class="fieldlabels">Not available </label> <input
+                                            type="checkbox" name="not" id="not" value="Not available" /></div>
+                                    <div class="d-flex"><label class="fieldlabels">Not applicable </label> <input
+                                            type="checkbox" name="nap" id="nap" value="Not Applicable" /></div>
                                 </div>
                                 <label class="fieldlabels">Personal Mobility Aids: </label> <input type="text"
                                     name="aids" id="aids" placeholder="Personal Mobility Aids" />

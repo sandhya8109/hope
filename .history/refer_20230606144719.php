@@ -163,21 +163,28 @@ include('nav.php')
                             </textarea>
                                 <label class="fieldlabels">Communication Status:</label> <input type="text"
                                     name="status" placeholder=" (eg. verbal,sign etc)" />
-                                <label class="fieldlabels">Communication assessment:</label>
-                                <div class="checkbox">
-                                    <label class="fieldlabels">Completed and attached </label> <input type="checkbox"
-                                        name="complete" id="complete" value="Completed and attached" />
-                                    <label class="fieldlabels">Not available </label> <input type="checkbox" name="not"
-                                        id="not" value="Not available" />
-                                    <label class="fieldlabels">Not applicable </label> <input type="checkbox" name="nap"
-                                        id="nap" value="Not Applicable" />
+                                <div class="row">
+                                    <div class="col">
+                                        <label class="fieldlabels">Communication assessment:</label>
+                                        <div class="checkbox">
+                                            <div class="d-flex"><label class="fieldlabels">Completed and attached
+                                                </label>
+                                                <input type="checkbox" name="complete" id="complete"
+                                                    value="Completed and attached" />
+                                            </div>
+                                            <div class="d-flex"><label class="fieldlabels">Not available </label> <input
+                                                    type="checkbox" name="not" id="not" value="Not available" /></div>
+                                            <label class="fieldlabels">Not applicable </label> <input type="checkbox"
+                                                name="nap" id="nap" value="Not Applicable" />
+                                        </div>
+                                    </div>
                                 </div>
                                 <label class="fieldlabels">Personal Mobility Aids: </label> <input type="text"
                                     name="aids" id="aids" placeholder="Personal Mobility Aids" />
                                 <label class="fieldlabels">Mobility Aids required: </label>
                                 <div class="checkbox">
-                                    <label class="fieldlabels">Hoisting </label> <input type="checkbox" name="h" id="h"
-                                        value="Hoisting" />
+                                    <input type="checkbox" name="h" id="h" value="Hoisting" /><label
+                                        class="fieldlabels">Hoisting </label>
                                     <label class="fieldlabels">Commode </label> <input type="checkbox" name="c" id="c"
                                         value="Commode" />
                                     <label class="fieldlabels">Sarah Steady </label> <input type="checkbox" name="s"

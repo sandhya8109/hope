@@ -121,12 +121,17 @@ include('nav.php')
                     <a class="btn btn-primary py-3 px-5 mt-2" href="./refer.php">Get Started</a>
 
                 </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="./background/Director.jpeg" alt=""
+                            style="object-fit: cover;">
+                    </div>
+                </div>
 
-
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s" style="min-height: 400px;">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4 position-relative h-100">
                         <img class="img-fluid position-absolute w-100 h-100" src="background/Director.jpeg" alt=""
-                            style="object-fit: contain;">
+                            style="object-fit: cover;">
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
                             <li><a class="btn btn-square" href="https://twitter.com/Hopeabilityau"><i
