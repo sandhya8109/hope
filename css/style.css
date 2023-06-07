@@ -207,7 +207,7 @@
     color: var(--light);
 }
 .pagecont-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/contact.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/contactbanner.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -221,7 +221,7 @@
     color: var(--light);
 }
 .pagetesti-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/testimonial\ banner.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/testimonial.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -235,7 +235,7 @@
     color: var(--light);
 }
 .pageabout-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about\ us-banner.png) center center no-repeat;
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/aboutbanner.png) center center no-repeat;
     background-size: cover;
    
  }
