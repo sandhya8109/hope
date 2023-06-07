@@ -1,4 +1,3 @@
-
 .container-1 {
     width: 100%;
     margin: 0 auto;
@@ -69,25 +68,19 @@ input[type=radio]
 {
     width: 1.5rem;
     height: 1.2rem;
+    margin-right: 1rem;
 }
-
-
 .radio{
-    margin-top: 1rem;
-    display: block;
-    justify-self: center;
-    align-items: center;
+    padding: 1rem 0 1rem 0;
 }
-
 input[type=checkbox]
 {
     width: 1.5rem;
     height: 1rem;
+    margin-right: 1rem;    
 }
 .checkbox{
-    margin-top: 1.5rem 0 1.5rem 0;
-    display:flex;
-    
+    padding: 1rem 0 1rem 0;
 }
 #msform {
     text-align: center;
@@ -95,7 +88,6 @@ input[type=checkbox]
     margin-top: 20px;
     padding: 20px;
 }
-
 #msform fieldset {
     background: white;
     border: 0 none;
@@ -106,7 +98,6 @@ input[type=checkbox]
     padding-bottom: 20px;
     position: relative
 }
-
 .form-card {
     text-align: left
 }
@@ -115,7 +106,7 @@ input[type=checkbox]
     display: none
 }
 
-#msform input,
+#msform .ipdetail,
 #msform textarea {
     padding: 8px 15px 8px 15px;
     border: 1px solid #ccc;
@@ -206,7 +197,7 @@ input[type=checkbox]
 }
 
 .fieldlabels {
-    color: rgb(70, 69, 69);
+    color: #274a84;
     text-align: left;
     width: 100%;
 }
@@ -310,10 +301,26 @@ input[type=checkbox]
     form #ms-form div{
         width: 100%;
     }
+    .container-fluid {
+        width: 100%;
+      }
     p{
         margin: 0;
     }
-    /* Add more styles for smaller screens */
+    h2.fs-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+      h2.steps {
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+    
+      label {
+        font-size: 15px;
+        margin-bottom: 4px;
+      }
+
 }
 @media screen and (max-width: 300px) {
     /* Styles for screens with maximum width of 600px */
@@ -326,6 +333,29 @@ input[type=checkbox]
       display: flex;
       flex-wrap: wrap;
     }
-    /* Add more responsive styles as needed */
+    h2.fs-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+      label {
+        font-size: 12px;
+        margin-bottom: 4px;
+        padding: 0;
+      }
   }
+  @media (max-width: 300px) {
+    .col-md-7, .col-md-5 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .checkbox.d-flex.flex-wrap {
+        flex-direction: column;
+    }
+    .checkbox .form-check {
+        margin-bottom: 0.5rem;
+    }
+    .checkbox .form-check label {
+        padding-right: 0.5rem;
+    }
+}
 
