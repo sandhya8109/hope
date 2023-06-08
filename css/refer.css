@@ -169,9 +169,8 @@ input[type=checkbox]
 
 .card {
     z-index: 0;
-    border: none;
     position: relative;
-    width: 63rem;
+    width: 80%;
     justify-content: center;
 }
 
@@ -289,14 +288,18 @@ input[type=checkbox]
     width: 100%;
     object-fit: cover
 }
+.col{
+    flex: 0%;
+}
 @media (max-width: 700px) {
     /* Styles for screens smaller than 600px */
     /* Adjust the layout and styling as needed */
     .col {
         width: 100%;
+        flex: 0;
     }
-    .progress-bar {
-        display: none;
+    #progressbar li{
+       font-size: 8px;
     }
     form #ms-form div{
         width: 100%;
@@ -320,42 +323,22 @@ input[type=checkbox]
         font-size: 15px;
         margin-bottom: 4px;
       }
+      
+      .ipdetail
+     {
+          padding: 8px 15px 8px 15px;
+          border: 1px solid #ccc;
+          border-radius: 0px;
+          margin-bottom: 25px;
+          margin-top: 2px;
+          width: 100%;
+          box-sizing: border-box;
+          font-family: montserrat;
+          color: #2C3E50;
+          background-color: #ECEFF1;
+          font-size: 10px;
+          letter-spacing: 1px
+      }
 
-}
-@media screen and (max-width: 300px) {
-    /* Styles for screens with maximum width of 600px */
-    /* Adjust the layout and size of the elements as needed */
-    .col {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    .checkbox {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    h2.fs-title {
-        font-size: 15px;
-        margin-bottom: 8px;
-      }
-      label {
-        font-size: 12px;
-        margin-bottom: 4px;
-        padding: 0;
-      }
-  }
-  @media (max-width: 300px) {
-    .col-md-7, .col-md-5 {
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    .checkbox.d-flex.flex-wrap {
-        flex-direction: column;
-    }
-    .checkbox .form-check {
-        margin-bottom: 0.5rem;
-    }
-    .checkbox .form-check label {
-        padding-right: 0.5rem;
-    }
 }
 
