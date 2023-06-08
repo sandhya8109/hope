@@ -23,16 +23,24 @@ include('nav.php')
 </div>
 <!-- Page Header End -->
 
-
+<style>
+      .sub {
+    color: #3A5668;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.6em;
+    text-align: center;
+    margin: 40px;
+  }
+</style>
+<h1 class="section-title bg-white text-center text-primary px-3">Testimonials​</h1>
+<p class="sub">"Our participants along with their guardian love our services! Here's what they have to
+                say about their experience with us: We are proud to have made a difference in the lives of our
+                participants and remain committed to delivering exceptional support and care."</p>
 <!-- Testimonial Start -->
 <div class="container-xxl pt-5">
     <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
-            <h1 class="section-title bg-white text-center text-primary px-3">Testimonials</h1>
-            <p class="mb-5">"Our participants along with their guardian love our services! Here's what they have to
-                say about their experience with us: We are proud to have made a difference in the lives of our
-                participants and remain committed to delivering exceptional support and care."</p>
-        </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
             <?php
 

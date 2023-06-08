@@ -19,19 +19,26 @@ include('nav.php')
 </div>
 <!-- Page Header End -->
 <h1 class="section-title bg-white text-center text-primary px-3">Complex Mental Health​</h1>
-<p class="sub">Hope Ability provides a range of mental health services tailored to assist people experiencing and living
+<p class="sub">"Hope Ability provides a range of mental health services tailored to assist people experiencing and living
   with mental health challenges in different settings. We provide psychosocial support and 24-hours residential
-  assistance to help with the emotional and social aspects of the individual living with cognitive impairment.</p>
+  assistance to help with the emotional and social aspects of the individual living with cognitive impairment."</p>
 <style>
   @media (max-width: 1024px) {
     .title {
       font-size: 22px;
     }
   }
-
+ 
+  @media (max-width: 767px) {
+    .order-lg-1 {
+      order: 2;
+    }
+    .order-lg-2 {
+      order: 1;
+    }
+  }
   .sub {
     color: #3A5668;
-
     font-size: 17px;
     font-weight: 200;
     line-height: 1.6em;
@@ -42,24 +49,74 @@ include('nav.php')
 
   .title {
     color: #3A5668;
-    font-family: "Vollkorn", Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.6em;
     text-align: center;
+  }
+
+  h2,
+  p {
+    padding: 0 1rem 0 0rem;
+    text-align: justify;
+  }
+
+  li {
+    padding-left: 2rem;
+    line-height: 1rem;
+    list-style: none;
+  }
+
+  .collapsible {
+    color: black;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-left: 1.5rem;
+    font-size: 15px;
+  }
+
+  .active,
+  .collapsible:hover {
+    color: #57c6e4;
+  }
+
+  .collapsible:after {
+    content: '\002B';
+    color: #274a84;
+    font-weight: bold;
+    float: left;
+    padding-right: 2rem;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    padding-left: 4rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: transparent;
   }
 </style>
 <!-- Content start -->
 <div class="container-xxl py-5">
   <div class="container">
     <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+      <div class="col-lg-6 order-lg-1 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
         <div class="position-relative h-100">
           <img class="img-fluid position-absolute w-100 h-100" src="background/Forensic Disability Support (FDS).jpeg"
             alt="" style="object-fit: cover;">
         </div>
       </div>
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-6 order-lg-2 wow fadeInUp" data-wow-delay="0.3s">
         <h1 class="mb-4">Forensic Disability Support (FDS)</h1>
         <p class="mb-4">Assisting Participants with Intellectual Disabilities in the Criminal Justice System.</p>
         <p class="mb-4">Welcome to our FDS team, dedicated to providing crucial support for individuals with
@@ -172,45 +229,7 @@ include('nav.php')
     </div>
   </div>
 </div>
-<style>
-  .collapsible {
-    color: black;
-    cursor: pointer;
-    padding-bottom: 1rem;
-    background-color: transparent;
-    border: none;
-    text-align: left;
-    outline: none;
-    margin-left: 1.5rem;
-    font-size: 15px;
-  }
 
-  .active,
-  .collapsible:hover {
-    color: #57c6e4;
-  }
-
-  .collapsible:after {
-    content: '\002B';
-    color: #274a84;
-    font-weight: bold;
-    float: left;
-    padding-right: 2rem;
-    margin-left: 5px;
-  }
-
-  .active:after {
-    content: "\2212";
-  }
-
-  .content {
-    padding-left: 4rem;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: transparent;
-  }
-</style>
 
 <script>
   var coll = document.getElementsByClassName("collapsible");
@@ -234,13 +253,13 @@ include('nav.php')
 <div class="container-xxl py-5">
   <div class="container">
     <div class="row g-5">
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+      <div class="col-lg-6 wow  order-lg-1 fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
         <div class="position-relative h-100">
           <img class="img-fluid position-absolute w-100 h-100"
             src="background/Transition and Reintegration in community .jpeg" alt="" style="object-fit: cover;">
         </div>
       </div>
-      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+      <div class="col-lg-6 order-lg-2 wow fadeInUp" data-wow-delay="0.3s">
         <h1 class="mb-4">Transition and Reintegration in community</h1>
         <p class="mb-4">Community reintegration for justice participants is a critical process that involves
           facilitating
@@ -268,19 +287,7 @@ include('nav.php')
 </div>
 
 
-<style>
-  h2,
-  p {
-    padding: 0 1rem 0 0rem;
-    text-align: justify;
-  }
 
-  li {
-    padding-left: 2rem;
-    line-height: 1rem;
-    list-style: none;
-  }
-</style>
 
 
 <!-- Content end -->
