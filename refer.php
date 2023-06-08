@@ -91,23 +91,23 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Participant's Full Name: </label>
                                         <input type="text" name="fullname" id="fullname" class="ipdetail"
                                             placeholder="Participant's Full Name" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Date of Birth: </label>
                                         <input type="date" name="birth" class="ipdetail" id="birth" placeholder="" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
-                                        <label class="fieldlabels">Other names(if applicable): </label>
+                                    <div class=" col-sm-12 col-md-6 col-lg-6">
+                                        <label class="fieldlabels">Other names (if applicable): </label>
                                         <input type="text" name="othername" class="ipdetail" id="othername"
                                             placeholder="Other Name" />
                                     </div>
-                                    <div class="col">
+                                    <div class=" col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Gender: </label>
                                         <select id="drop-down" name="gender" id="gender">
                                             <option value="">Select Gender</option>
@@ -119,12 +119,12 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Residental Address: </label>
                                         <input type="text" name="address" id="address" class="ipdetail"
                                             placeholder="Residental Address" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Postal Address(if different): </label>
                                         <input type="text" name="postal" id="postal" class="ipdetail"
                                             placeholder="Postal Address" />
@@ -134,7 +134,7 @@ include('nav.php')
                                 <input type="number" name="cnum" id="cnum" class="ipdetail"
                                     placeholder="Contact Number" />
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Does the Participant identify as: </label>
                                         <div class="radio">
                                             <div class="d-flex"><input type="radio" name="a" id="a"
@@ -155,7 +155,7 @@ include('nav.php')
                                             </div>
                                         </div>
                                     </div>
-                                    <div class=" col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Has the Participant consented to this referral?
                                         </label>
                                         <div class="radio">
@@ -469,7 +469,7 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">NDIS Number: </label>
                                         <input type="text" name="nm" id="nm" class="ipdetail"
                                             placeholder="NDIS Number " />
@@ -487,22 +487,22 @@ include('nav.php')
                                 <input type="text" name="fd" id="fd" class="ipdetail" placeholder="Funding Source" />
                                 <label class="fieldlabels">NDIS COS Details:</label>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Name: </label>
                                         <input type="text" name="Nm" id="Nm" class="ipdetail" placeholder="Name" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Organization: </label>
                                         <input type="text" name="NO" id="NO" class="ipdetail"
                                             placeholder="Organization" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Email: </label>
                                         <input type="email" name="NE" id="NE" class="ipdetail" placeholder="Email" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Phone: </label>
                                         <input type="number" name="NP" id="NP" class="ipdetail" placeholder="Phone" />
                                     </div>
@@ -522,22 +522,22 @@ include('nav.php')
                                 </div>
                                 <label class="fieldlabels">If Plan Managed, Contact Details of Plan Manager:</label>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Name: </label>
                                         <input type="text" name="PMn" id="PMn" class="ipdetail" placeholder="Name" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Organization: </label>
                                         <input type="text" name="PMo" id="PMo" class="ipdetail"
                                             placeholder="Organization" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Email: </label>
                                         <input type="email" name="PMe" id="PMe" class="ipdetail" placeholder="Email" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Phone: </label>
                                         <input type="phone" id="PMnn" name="PMnn" class="ipdetail"
                                             placeholder="Phone" />
@@ -567,23 +567,23 @@ include('nav.php')
                                 <input type="email" name="PPGE" id="PPGE" class="ipdetail" placeholder="Email">
                                 <label class="fieldlabels">Contact Numbers:</label>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Home: </label>
                                         <input type="number" name="PPGH" id="PPGH" class="ipdetail" value="Home"
                                             placeholder="Home" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Mobile: </label>
                                         <input type="number" name="PPGM" id="PPGM" class="ipdetail" value="Mobile"
                                             placeholder="Mobile" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Date: </label>
                                         <input type="date" name="PPGD" id="PPGD" class="ipdetail" placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Signature :</label>
                                         <input type="text" name="PPGS" id="PPGS" class="ipdetail"
                                             placeholder="Print Name">
@@ -615,33 +615,33 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Organisation: </label>
                                         <input type="text" name="O" id="O" class="ipdetail"
                                             placeholder="Organisation" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Name: </label>
                                         <input type="text" name="N" id="N" class="ipdetail" placeholder="Name" />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Contact Number: </label>
                                         <input type="Number" name="CN" id="CN" class="ipdetail" placeholder="Contact" />
                                     </div>
-                                    <div class="col"><label class="fieldlabels">Email: </label>
+                                    <div class="col-sm-12 col-md-6 col-lg-6"><label class="fieldlabels">Email: </label>
                                         <input type="email" name="E" id="E" class="ipdetail" placeholder="Email" />
                                     </div>
                                 </div>
                                 <label class="fieldlabels">Postal Address: </label>
                                 <input type="text" name="P" id="P" class="ipdetail" placeholder="Postal Address" />
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Signature</label>
                                         <input type="text" name="SP" id="SP" class="ipdetail" placeholder="Print Name">
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Date: </label>
                                         <input type="date" name="D" id="D" class="ipdetail" placeholder="Mobile" />
                                     </div>
