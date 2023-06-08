@@ -29,10 +29,10 @@ include('nav.php')
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h1 class="mb-4">We Combine Experience And Empathy</h1>
                 <p class="mb-4">Hope Ability has extensive experience in providing support for individuals with
-                    disabilities, including those with complex Mental Health, Forensic Disability, and NDIS
-                    support requirements. We are a local organization based in Darwin,
-                    Northern
-                    Territory and registered with the NDIS. Our mission is to empower people with a
+                    disabilities, including those with complex Mental Health, Forensic Disability, and NDIS <strong>
+                        support </strong> requirements. We are a local organization based in <strong>Darwin,
+                        Northern
+                        Territory </strong>and registered with the NDIS. Our mission is to empower people with a
                     disability to
                     engage in opportunities of their choice in a supported and inclusive environment.</p>
                 <p class="mb-4">We have embedded person-centered support in our mission to ensure all staff treat

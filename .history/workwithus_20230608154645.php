@@ -176,7 +176,8 @@ include('header.php');
           <p class="mb-2" style="margin-left:0px;"><i class="fa fa-phone-alt me-3"></i>1300 424 442</p>
           <p class="mb-2" style="margin-left:0px;"><i class="fa fa-envelope me-3"></i>info@hopeability.com.au</p>
           <div class="d-flex pt-3">
-
+            <a class="btn btn-square btn-light rounded-circle me-2" href="https://twitter.com/Hopeabilityau"><i
+                class="fab fa-twitter"></i></a>
             <a class="btn btn-square btn-light rounded-circle me-2"
               href="https://www.facebook.com/hopeabilityofficial"><i class="fab fa-facebook-f"></i></a>
             <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.instagram.com/hope_ability/"><i

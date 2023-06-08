@@ -41,7 +41,7 @@ include('nav.php')
             </ul>
         </div>
         <div class="col-md-6">
-            <img class="img-fluid" src="./background/personal activities.png" alt="Volunteer" width="100%"
+            <img class="img-fluid" src="background/personal activities.png" alt="Volunteer" width="100%"
                 style="height: 80%">
         </div>
     </div>

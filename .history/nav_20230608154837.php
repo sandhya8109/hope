@@ -64,7 +64,7 @@ include('admin/db_connect.php');
                     <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
                         href="https://www.facebook.com/hopeabilityofficial"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
-                        href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                        href="https://www.linkedin.com/feed/"><i class="fab fa-linkedln"></i></a>
                     <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-2"
                         href="https://www.instagram.com/hope_ability/"><i class="fab fa-instagram-square"></i></a>
                 </div>

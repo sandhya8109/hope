@@ -32,10 +32,9 @@ include('nav.php')
                             <img class="img-fluid" src="background/development of life skills.jpeg"
                                 style="height: 13rem" alt="HOPE">
                         </div>
-                        <h5 class="mb-3">
-                            Personal Activities </h5>
-                        <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable
-                            the participant to.</p>
+                        <h5 class="mb-3">Development-Life Skills</h5>
+                        <p class="mb-0">Development of daily living and life skills focus on training and
+                            development activities.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
                         <a class="text-primary fw-medium" href="post1.php">Read More<i
@@ -50,10 +49,10 @@ include('nav.php')
                             <img class="img-fluid" src="background/personal activities.png" alt="Hope"
                                 style="height: 13rem" width="100%">
                         </div>
-                        <h5 class="mb-3">Development-Life Skills</h5>
-                        <p class="mb-0">Development of daily living and life skills focus on training and
-                            development activities.</p>
-
+                        <h5 class="mb-3">
+                            Personal Activities </h5>
+                        <p class="mb-0">Assisting with and/or supervising personal tasks of daily life to enable
+                            the participant to.</p>
                     </div>
                     <div class="service-btn rounded-0 rounded-bottom">
                         <a class="text-primary fw-medium" href="post2.php">Read More<i

@@ -17,37 +17,6 @@ include('nav.php')
   </div>
 </div>
 <!-- Page Header End -->
-<h1 class="section-title bg-white text-center text-primary px-3">Complex Mental Health​</h1>
-<p class="sub">Hope Ability provides a range of mental health services tailored to assist people experiencing and living
-  with mental health challenges in different settings. We provide psychosocial support and 24-hours residential
-  assistance to help with the emotional and social aspects of the individual living with cognitive impairment.</p>
-<style>
-  @media (max-width: 1024px) {
-    .title {
-      font-size: 22px;
-    }
-  }
-
-  .sub {
-    color: #3A5668;
-
-    font-size: 17px;
-    font-weight: 200;
-    line-height: 1.6em;
-    text-align: center;
-    margin: 40px;
-  }
-
-
-  .title {
-    color: #3A5668;
-    font-family: "Vollkorn", Sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 1.6em;
-    text-align: center;
-  }
-</style>
 <!-- Content start -->
 <div class="container-xxl py-5">
   <div class="container">
