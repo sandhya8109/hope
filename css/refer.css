@@ -170,7 +170,7 @@ input[type=checkbox]
 .card {
     z-index: 0;
     position: relative;
-    width: 80%;
+    width: 90%;
     justify-content: center;
 }
 

@@ -258,7 +258,7 @@ include('nav.php')
                                 <label class="fieldlabels">Please tick the documents that have been provided:</label>
                                 <div class="checkbox">
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="d-flex"><input type="checkbox" id="pbsp" name="pbsp" />
                                                 <label>PBSP </label>
                                             </div>
@@ -275,7 +275,7 @@ include('nav.php')
                                                 <label>Person centered plan </label>
                                             </div>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
                                             <div class="d-flex"><input type="checkbox" name="ass" id="ass" />
                                                 <label>Communication assessment </label>
                                             </div>
@@ -363,10 +363,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Monday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr1" id="hr1" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr1" id="hr1" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac1" id="Ac1" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -374,10 +374,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Tuesday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr2" id="hr2" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr2" id="hr2" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac2" id="Ac2" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -385,10 +385,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Wednesday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr3" id="hr3" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr3" id="hr3" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac3" id="Ac3" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -396,10 +396,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Thursday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr4" id="hr4" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr4" id="hr4" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac4" id="Ac4" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -407,10 +407,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Friday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr5" id="hr5" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr5" id="hr5" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac5" id="Ac5" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -418,10 +418,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Saturday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr6" class="ipdetail" id="hr6"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr6" class="ipdetail" id="hr6"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac6" id="Ac6" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -429,10 +429,10 @@ include('nav.php')
                                     <div class="col-md-2">
                                         <label>Sunday: </label>
                                     </div>
-                                    <div class="col">Hour/time<input type="text" name="hr7" id="hr7" class="ipdetail"
+                                    <div class="col-sm-6 col-md-5">Hour/time<input type="text" name="hr7" id="hr7" class="ipdetail"
                                             placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-6 col-md-5">
                                         Activity<input type="text" name="Ac7" id="Ac7" class="ipdetail"
                                             placeholder="" /></div>
                                 </div>
@@ -469,16 +469,16 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="col-sm-12 col-md-4 col-lg-4">
                                         <label class="fieldlabels">NDIS Number: </label>
                                         <input type="text" name="nm" id="nm" class="ipdetail"
                                             placeholder="NDIS Number " />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-4 col-lg-4">
                                         <label class="fieldlabels">Plan Start Date: </label>
                                         <input type="date" name="pd" id="pd" class="ipdetail" placeholder="" />
                                     </div>
-                                    <div class="col">
+                                    <div class="col-sm-12 col-md-4 col-lg-4">
                                         <label class="fieldlabels">Plan End Date: </label>
                                         <input type="date" name="em" id="em" class="ipdetail" placeholder="" />
                                     </div>
