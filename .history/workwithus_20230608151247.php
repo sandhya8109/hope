@@ -186,28 +186,27 @@ include('header.php');
             <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.linkedin.com/feed/"><i
                 class="fab fa-linkedin-in"></i></a>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h4 class="text-white mb-4">Quick Links</h4>
-          <a class="btn btn-link" href="./aboutus.php">About Us</a>
-          <a class="btn btn-link" href="./contact.php">Contact Us</a>
-          <a class="btn btn-link" href="./service.php">Our Services</a>
-          <a class="btn btn-link" href="./term.php">Terms & Condition</a>
-          <a class="btn btn-link" href="./privacy.php">privacy</a>
-          <a class="btn btn-link" href="./imp.php">Imp Document</a>
-          <a class="btn btn-link" href=".//workwithus.php">Work with us</a>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="./aboutus.php">About Us</a>
+            <a class="btn btn-link" href="./contact.php">Contact Us</a>
+            <a class="btn btn-link" href="./service.php">Our Services</a>
+            <a class="btn btn-link" href="./term.php">Terms & Condition</a>
+            <a class="btn btn-link" href="./privacy.php">privacy</a>
+            <a class="btn btn-link" href="./imp.php">Imp Document</a>
+            <a class="btn btn-link" href=".//workwithus.php">Work with us</a>
+
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img class="w-100" src="background/NDISnew.png" alt="Image">
+
+          </div>
 
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img class="w-100" src="background/NDISnew.png" alt="Image">
-
-        </div>
-
       </div>
     </div>
-  </div>
-  <!-- Footer End -->
-  <?php include('footer.php') ?>
+    <!-- Footer End -->
+    <?php include('footer.php') ?>
 
 </body>
 

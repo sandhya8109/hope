@@ -67,7 +67,7 @@ include('nav.php')
         <p class="mb-4">Hope Ability provides a range of mental health services tailored to assist people experiencing
           and living with mental health challenges in different settings. We provide psychosocial support and 24-hours
           residential assistance to help with the emotional and social aspects of the individual living with cognitive
-          impairment. </p>
+          impairment </p>
 
         <button class="collapsible">Anxiety Disorders</button>
         <div class="content">

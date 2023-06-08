@@ -179,12 +179,9 @@ include('header.php');
           <div class="d-flex pt-3">
             <a class="btn btn-square btn-light rounded-circle me-2" href="https://twitter.com/Hopeabilityau"><i
                 class="fab fa-twitter"></i></a>
-            <a class="btn btn-square btn-light rounded-circle me-2"
-              href="https://www.facebook.com/hopeabilityofficial"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.instagram.com/hope_ability/"><i
-                class="fab fa-instagram"></i></a>
-            <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.linkedin.com/feed/"><i
-                class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-square btn-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
