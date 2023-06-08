@@ -2,7 +2,8 @@
 include('nav.php')
     ?>
 <!-- Page Header Start -->
-<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style=" height: 293px;
+    width: 100%;">
     <div class="container text-center py-5">
         <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -45,27 +46,20 @@ include('nav.php')
                 style="height: 80%">
         </div>
     </div>
+    <br>
+    <br>
     <div class="container-fluid" style="font-size: 1.2rem">
         <h4>We provide you as little or as much support you need including but not limited to:</h4>
         <ul>
-            <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from bed
-                or chair to wheelchair or toilet.</li>
-            <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers from
-                bed or chair to wheelchair or toilet.</li>
-            <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                from bed or chair to wheelchair or toilet.</li>
-            <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers from
-                bed or chair to wheelchair or toilet.</li>
-            <li><strong>Cooking assistance:</strong>Cooking assistance and meal preparation. Laundry and ironing.
-            </li>
-            <li><strong>Home maintenance:</strong>We can help you get to things that can be hard to reach, like
-                changing light bulbs or smoke alarm batteries.</li>
-            <li><strong>Home Cleaning:</strong>Tidying, washing dishes and helping to maintain a clean home for you
-                to relax in.</li>
-            <li><strong>Minor Repairs:</strong>Taking care of fixtures and fittings such as taps and paint chips
-                that naturally wear out over time and require repairs and servicing.</li>
-            <li><strong>Gardening and Lawn Care:</strong>Keeping your garden and lawn healthy and looking great from
-                season to season.</li>
+            <li><strong>Getting Around</strong></li>
+            <li><strong>Getting Dressed</strong></li>
+            <li><strong>Bathroom Assistance</strong></li>
+            <li><strong>Medical Assistance</strong></li>
+            <li><strong>Cooking assistance</strong></li>
+            <li><strong>Home maintenance</strong></li>
+            <li><strong>Home Cleaning</strong></li>
+            <li><strong>Minor Repairs</strong></li>
+            <li><strong>Gardening and Lawn Care</strong></li>
 
         </ul>
         <style>

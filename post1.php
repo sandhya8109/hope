@@ -2,7 +2,8 @@
 include('nav.php')
     ?>
 <!-- Page Header Start -->
-<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style=" height: 293px;
+    width: 100%;">
     <div class="container text-center py-5">
         <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -30,19 +31,12 @@ include('nav.php')
                 requirements
             </p>
             <ul>
-                <li><strong>Getting Around:</strong>Assisting you in moving around the house, such as transfers from
-                    bed
-                    or chair to wheelchair or toilet.</li>
-                <li><strong>Getting Dressed:</strong>Assisting you in moving around the house, such as transfers
-                    from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Bathroom Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from bed or chair to wheelchair or toilet.</li>
-                <li><strong>Medical Assistance:</strong>Assisting you in moving around the house, such as transfers
-                    from
-                    bed or chair to wheelchair or toilet.</li>
-                <li><strong>Cooking assistance and meal preparation.</strong></li>
-                <li><strong>Laundry and ironing.</strong></li>
+                <li><strong>Getting Around</strong></li>
+                <li><strong>Getting Dressed</strong></li>
+                <li><strong>Bathroom Assistance</strong></li>
+                <li><strong>Medical Assistance</strong></li>
+                <li><strong>Cooking assistance and meal preparation</strong></li>
+                <li><strong>Laundry and ironing</strong></li>
             </ul>
         </div>
         <div class="col-md-6">

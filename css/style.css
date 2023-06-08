@@ -193,8 +193,9 @@
     color: var(--light);
 }
 .pagework-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/workwith\ us.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/work\ with\ us\ -banner.jpeg) center center no-repeat;
     background-size: cover;
+    min-height:60vh;
 }
 
 .pagework-header .breadcrumb-item+.breadcrumb-item::before {
@@ -207,8 +208,9 @@
     color: var(--light);
 }
 .pagecont-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/contactbanner.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/contact\ us-banner.jpeg) center center no-repeat;
     background-size: cover;
+    min-height:60vh;
 }
 
 .pagecont-header .breadcrumb-item+.breadcrumb-item::before {
@@ -223,6 +225,7 @@
 .pagetesti-header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../background/testimonial.png) center center no-repeat;
     background-size: cover;
+    min-height:60vh;
 }
 
 .pagetesti-header .breadcrumb-item+.breadcrumb-item::before {
@@ -237,6 +240,7 @@
 .pageabout-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/aboutbanner.png) center center no-repeat;
     background-size: cover;
+    min-height:60vh;
    
  }
 
@@ -254,7 +258,7 @@
 .pageservice-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/service.jpg) center center no-repeat;
     background-size: cover;
-   
+    min-height:60vh;
  }
 
 .pageservice-header .breadcrumb-item+.breadcrumb-item::before {
@@ -269,7 +273,7 @@
 .pagerefer-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/Referrals.jpeg) center center no-repeat;
     background-size: cover;
-   
+    min-height:60vh;
  }
 
 .pagerefer-header .breadcrumb-item+.breadcrumb-item::before {
@@ -282,9 +286,9 @@
     color: var(--light);
 }
 .pagepost-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/participation\ in\ community\,social\ and\ civic\ activities.jpeg) center center no-repeat;
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/service.jpg) center center no-repeat;
     background-size: cover;
-   
+    min-height:60vh;
  }
 
 .pagepost-header .breadcrumb-item+.breadcrumb-item::before {
@@ -299,7 +303,7 @@
 .pagemental-header {
     background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/mentalnew.jpg) center center no-repeat;
     background-size: cover;
-   
+    min-height:60vh;
  }
 
 .pagemental-header .breadcrumb-item+.breadcrumb-item::before {

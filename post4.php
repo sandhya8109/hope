@@ -2,7 +2,8 @@
 include('nav.php')
     ?>
 <!-- Page Header Start -->
-<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style=" height: 293px;
+    width: 100%;">
     <div class="container text-center py-5">
         <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -27,19 +28,11 @@ include('nav.php')
                 around independently is your goal, then our friendly staff can help you build capacity to use public
                 transport safely and with confidence.</p>
             <ul>
-                <li><strong>Transport Service:</strong>Getting out and engaging with friends and the community is
-                    just
-                    as important as enjoying your home environment. We’ll help to ensure you are able to lead a life
-                    that’s active and meaningful.</li>
-                <li><strong>Community Access:</strong>Helping you get out into your community and into your local
-                    town
-                    or city by going with you on public transport.</li>
-                <li><strong>Social Activities:</strong>Helping you try new things or continue existing activities
-                    whilst
-                    making friends – from hobbies, recreation, leisure, sports, and arts to community programs like
-                    gardening or volunteering.</li>
-                <li><strong>Appointments:</strong>Getting you to and from your medical, school or job appointments.
+                <li><strong>Transport Service</strong>
                 </li>
+                <li><strong>Community Access</strong></li>
+                <li><strong>Social Activities</strong></li>
+                <li><strong>Appointments</strong> </li>
 
             </ul>
         </div>
