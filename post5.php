@@ -2,7 +2,8 @@
 include('nav.php')
     ?>
 <!-- Page Header Start -->
-<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+<div class="container-fluid pagepost-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style=" height: 293px;
+    width: 100%;">
     <div class="container text-center py-5">
         <h1 class="display-2 text-white mb-4 animated slideInDown">Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -42,9 +43,12 @@ include('nav.php')
     </div>
     <br />
     <div class="container-fluid" style="font-size: 1.2rem">
-        <h5 style="font-weight: 10;">Our Activities Include</h5>
+        <h5 style="font-size: 2rem">Our Activities Includes</h5>
         <ul>
-            <li>Activities based on your hobbies</li>
+
+            <li>
+                Activities based on your hobbies
+            </li>
             <li>Shopping trips</li>
             <li>Holidays, trips, cruises</li>
             <li>Movies/ theatres</li>
@@ -54,6 +58,7 @@ include('nav.php')
             <li>Community Events and Activities</li>
             <li>Programs to help you improve social skills</li>
             <li>Art gallery</li>
+
         </ul>
     </div>
 </div>

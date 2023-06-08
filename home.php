@@ -20,7 +20,7 @@ include 'admin/db_connect.php';
 </style>
 <header class="container-fluid pagework-header py-5 mb-5 wow fadeIn" style="height:252px;">
     <div class="container text-center py-5">
-        <h1 class="display-2 text-white mb-4 animated slideInDown">Work With us</h1>
+        <h1 class="display-2 text-white mb-4 animated slideInDown">Work With Us</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0" style="background-color:transparent; color:white;">
                 <li class="breadcrumb-item"><a href="./index.php" style="color:#fff;">Home</a></li>
