@@ -30,7 +30,7 @@
 
   .sub {
     color: #3A5668;
-    font-family: "Vollkorn", Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     font-size: 17px;
     font-weight: 200;
     line-height: 1.6em;
