@@ -24,7 +24,7 @@ include 'admin/db_connect.php';
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0" style="background-color:transparent; color:white;">
                 <li class="breadcrumb-item"><a href="./index.php" style="color:#fff;">Home</a></li>
-                <li class="breadcrumb-item"><a href="#" style="color:#fff;">Pages</a></li>
+             
                 <li class="breadcrumb-item text-primary" aria-current="page" style="color:#fff;">Work with us</li>
             </ol>
         </nav>

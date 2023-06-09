@@ -9,7 +9,7 @@ include('nav.php')
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+              
                 <li class="breadcrumb-item text-primary" aria-current="page">Services</li>
             </ol>
         </nav>
