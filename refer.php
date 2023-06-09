@@ -48,7 +48,7 @@ include('nav.php')
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="./index.php" style="color: white;">Home</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Referral</li>
+                    <li class="breadcrumb-item text-primary" aria-current="page">Referral</li>
                 </ol>
             </nav>
         </div>

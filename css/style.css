@@ -213,6 +213,14 @@
     min-height:60vh;
 }
 
+@media (max-width: 576px) {
+    .pagecont-header {
+        min-height: 40vh;
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
+
 .pagecont-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
@@ -228,6 +236,14 @@
     min-height:60vh;
 }
 
+@media (max-width: 576px) {
+    .pagetesti-header {
+        min-height: 40vh;
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
+
 .pagetesti-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
@@ -238,11 +254,19 @@
     color: var(--light);
 }
 .pageabout-header {
-    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/aboutbanner.png) center center no-repeat;
+    background: linear-gradient(rgba(54, 53, 53, 0.1), rgba(59, 59, 59, 0.1)), url(../background/about\ us-banner.png) top center no-repeat;
     background-size: cover;
     min-height:60vh;
    
  }
+
+ @media (max-width: 576px) {
+    .pageabout-header {
+        min-height: 40vh; 
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
 
 .pageabout-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -261,6 +285,14 @@
     min-height:60vh;
  }
 
+ @media (max-width: 576px) {
+    .pageservice-header {
+        min-height: 40vh; /* Modify the minimum height for smaller screens */
+        background-size: auto 100%; /* Adjust the background-size property for smaller screens */
+        background-position: center; /* Center the background image horizontally */
+    }
+}
+
 .pageservice-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
@@ -275,6 +307,14 @@
     background-size: cover;
     min-height:60vh;
  }
+
+ @media (max-width: 576px) {
+    .pagerefer-header {
+        min-height: 40vh;
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
 
 .pagerefer-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
@@ -291,6 +331,14 @@
     min-height:60vh;
  }
 
+ @media (max-width: 576px) {
+    .pagepost-header {
+        min-height: 40vh;
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
+
 .pagepost-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
@@ -306,6 +354,13 @@
     min-height:60vh;
  }
 
+ @media (max-width: 576px) {
+    .pagemental-header {
+        min-height: 40vh;
+        background-size: auto 100%; 
+        background-position: center; 
+    }
+}
 .pagemental-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
