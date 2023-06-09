@@ -42,10 +42,11 @@ include('nav.php')
         </div>
     </div>
 </div>
+<br>
 <div class="container" style="text-align: justify;">
 <div  class="row">
 <div class="col-md-6">
-    <a href="post1.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> Daily Personal Activities</a>
+<a class="btn btn-primary py-3 px-3" href="post1.php">Personal Activities</a>
 </div>
 </div>
 </div>

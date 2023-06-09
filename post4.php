@@ -43,10 +43,11 @@ include('nav.php')
         </div>
     </div>
 </div>
+<br>
 <div class="container" style="text-align: justify;">
 <div  class="row">
 <div class="col-md-6">
-    <a href="post5.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> AParticipation In Community, Social And Civic Activities</a>
+<a class="btn btn-primary py-3 px-3" href="post5.php">Participation In Community, Social and Civic Activities</a>
 </div>
 </div>
 </div>

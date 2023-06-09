@@ -45,10 +45,11 @@ include('nav.php')
         </div>
     </div>
 </div>
+<br>
 <div class="container" style="text-align: justify;">
 <div  class="row">
 <div class="col-md-6">
-    <a href="post4.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> Assistance With Travel / Transport Arrangements</a>
+<a class="btn btn-primary py-3 px-3" href="post4.php">Assistance With Travel/Transport Arrangements</a>
 </div>
 </div>
 </div>
