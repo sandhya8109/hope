@@ -62,6 +62,13 @@ include('nav.php')
         </ul>
     </div>
 </div>
+<div class="container" style="text-align: justify;">
+<div  class="row">
+<div class="col-md-6">
+    <a href="post6.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> Household Tasks</a>
+</div>
+</div>
+</div>
 <!--content-->
 
 

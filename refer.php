@@ -44,7 +44,7 @@ include('nav.php')
     <div class="container-fluid pagerefer-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s" style=" height: 293px;
     width: 100%;">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Refer a Participant</h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Make a Referral</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="./index.php" style="color: white;">Home</a></li>

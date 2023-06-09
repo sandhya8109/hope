@@ -33,12 +33,12 @@ include('nav.php')
                     disabilities, including those with complex Mental Health, Forensic Disability, and NDIS
                     support requirements. We are a local organization based in Darwin,
                     Northern
-                    Territory and registered with the NDIS. Our mission is to empower people with a
+                    Territory and registered with the NDIA. Our mission is to empower people with a
                     disability to
                     engage in opportunities of their choice in a supported and inclusive environment.</p>
                 <p class="mb-4">We have embedded person-centered support in our mission to ensure all staff treat
                     our participants the way they would like to be treated. Participants are given the freedom to
-                    make their own delivery choices and are provided access to their preferred health services.
+                    make their own delivery choices and are provided access to their preferred support services.
                     Participants are treated with respect and empathy. our staff actively listen to their life story
                     to understand their values, culture, interests, and beliefs. We then incorporate this
                     information into the support plans. Strong connections between people, family, friends, and

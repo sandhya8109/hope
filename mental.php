@@ -18,7 +18,7 @@ include('nav.php')
   </div>
 </div>
 <!-- Page Header End -->
-<h1 class="section-title bg-white text-center text-primary px-3">Complex Mental Health​</h1>
+
 <p class="sub">"Hope Ability provides a range of mental health services tailored to assist people experiencing and living
   with mental health challenges in different settings. We provide psychosocial support and 24-hours residential
   assistance to help with the emotional and social aspects of the individual living with cognitive impairment."</p>
@@ -158,7 +158,7 @@ include('nav.php')
           facing intricate mental health conditions. It recognizes the interplay of factors like trauma, comorbidity,
           neurobiology, and resilience. This support takes a holistic approach, providing a range of interventions
           tailored to
-          meet the unique needs of everyone. The goal is to improve overall well-being, reduce symptom severity, and
+          meet the unique needs of everyone with individual. The goal is to improve overall well-being, reduce symptom severity, and
           promote
           recovery. </p>
 

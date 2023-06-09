@@ -69,6 +69,13 @@ include('nav.php')
         </style>
     </div>
 </div>
+<div class="container" style="text-align: justify;">
+<div  class="row">
+<div class="col-md-6">
+    <a href="post3.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> Assistance with Life Tasks</a>
+</div>
+</div>
+</div>
 
 <!--content-->
 

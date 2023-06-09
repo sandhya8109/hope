@@ -267,7 +267,7 @@ include('nav.php');
                 <h1 class="mb-5" style="color: #fff;">We Are Registered NDIS Provider</h1>
                 <a class="btn btn-primary py-3 px-5 "
                     style="border-radius: 10px; background-color: #24343899; border: #24343899; margin-bottom: 30px;"
-                    href="./refer.php">Refer a Participant</a>
+                    href="./refer.php">Make a Referral</a>
             </div>
         </div>
     </div>

@@ -44,7 +44,13 @@ include('nav.php')
         </div>
     </div>
 </div>
-
+<div class="container" style="text-align: justify;">
+<div  class="row">
+<div class="col-md-6">
+    <a href="post2.php"><i class="fa-solid fa-arrow-right-to-bracket"></i> Assistance With Daily Life Tasks In A Group Or Shared Living Arrangement</a>
+</div>
+</div>
+</div>
 <!--content-->
 
 
