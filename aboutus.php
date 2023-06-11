@@ -28,15 +28,15 @@ include('nav.php')
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                <h1 class="mb-4">We Combine Experience And Empathy</h1>
-                <p class="mb-4">Hope Ability has extensive experience in providing support for individuals with
+                <h1 class="mb-4" style="text-align:justify">We Combine Experience And Empathy</h1>
+                <p class="mb-4" style="text-align:justify">Hope Ability has extensive experience in providing support for individuals with
                     disabilities, including those with complex Mental Health, Forensic Disability, and NDIS
                     support requirements. We are a local organization based in Darwin,
                     Northern
                     Territory and registered with the NDIA. Our mission is to empower people with a
                     disability to
                     engage in opportunities of their choice in a supported and inclusive environment.</p>
-                <p class="mb-4">We have embedded person-centered support in our mission to ensure all staff treat
+                <p class="mb-4" style="text-align:justify">We have embedded person-centered support in our mission to ensure all staff treat
                     our participants the way they would like to be treated. Participants are given the freedom to
                     make their own delivery choices and are provided access to their preferred support services.
                     Participants are treated with respect and empathy. our staff actively listen to their life story
@@ -99,8 +99,27 @@ include('nav.php')
 
 
 </div>
-<a class="btn btn-primary py-3 px-5 mt-2" href="./refer.php" style="margin-left:190px;">Get Started</a>
 
+<style>
+  @media (max-width: 767.98px) {
+    .center-mobile {
+      display: flex;
+      justify-content: center;
+    }
+  }
+</style>
+<br>
+<div class="container" style="text-align: justify;">
+  <div class="row">
+    <div class="col-md-6 center-mobile">
+      <a class="btn btn-primary py-3 px-4" href="refer.php">Get Started</a>
+    </div>
+  </div>
+</div>
+
+
+
+</style>
 <!-- Team End -->
 <br>
 <!-- Mission Start -->
