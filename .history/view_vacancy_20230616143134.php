@@ -9,12 +9,6 @@
 <section id="">
 	<?php include 'admin/db_connect.php' ?>
 
-	<?php
-	$qry = $conn->query("SELECT * FROM vacancy where id=" . $_GET['id'])->fetch_array();
-	foreach ($qry as $k => $v) {
-		$$k = $v;
-	}
-	?>
 
 	<div class="container mb-2 pt-4 ">
 		<div class="card">
@@ -72,7 +66,7 @@
 								</div>
 								<div class="modal-body">
 									<div class="container-fluid">
-										<form method="post" action="workform.php" id="manage-application">
+										<form method="post" id="manage-application">
 											<input type="hidden" name="id" value="">
 											<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 											<div class="col-md-12">

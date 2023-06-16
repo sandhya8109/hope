@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
 		<div class="row form-group">
 			<div class="col-md-8">
 				<label class="control-label">Position Name</label>
-				<input type="text" name="position" class="form-control"
+				<input type="text" id="position" name="position" class="form-control"
 					value="<?php echo isset($position) ? $position : '' ?>">
 			</div>
 		</div>

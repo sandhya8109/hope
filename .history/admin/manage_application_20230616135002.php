@@ -22,13 +22,13 @@ while ($row = $rs->fetch_assoc()) {
 
 ?>
 <div class="container-fluid">
-	<form id="manage-application">
+	<form action="workform.php" method="POST" id="manage-application">
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div class="col-md-12">
 			<div class="row form-group">
 				<div class="col-md-6">
 					<label for="" class="control-label">Position</label>
-					<select class="custom-select browser-default select2" name="position_id">
+					<select class="custom-select browser-default select2" id="position_id" name="position_id">
 						<option value=""></option>
 						<?php foreach ($pos as $k => $v): ?>
 							<option value="<?php echo $k ?>" <?php echo isset($position_id) && $position_id == $k ? "selected" : '' ?>><?php echo $v ?></option>
@@ -44,47 +44,45 @@ while ($row = $rs->fetch_assoc()) {
 				</div>
 				<div class="col-md-4">
 					<label for="" class="control-label">First Name</label>
-					<input type="text" class="form-control" id="firstname" name="firstname" required=""
+					<input type="text" class="form-control" name="firstname" required=""
 						value="<?php echo isset($firstname) ? $firstname : '' ?>">
 				</div>
 				<div class="col-md-4">
 					<label for="" class="control-label">Middle Name</label>
-					<input type="text" class="form-control" id="middlename" name="middlename" required=""
+					<input type="text" class="form-control" name="middlename" required=""
 						value="<?php echo isset($middlename) ? $middlename : '' ?>">
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col-md-4">
 					<label for="" class="control-label">Gender</label>
-					<select name="gender" id="gender" class="custom-select browser-default">
-						<option value="male" <?php echo isset($gender) && $gender == 'Male' ? "selected" : '' ?>>Male
-						</option>
-						<option value="female" <?php echo isset($gender) && $gender == 'Female' ? "selected" : '' ?>>
-							Female</option>
+					<select name="gender" id="" class="custom-select browser-default">
+						<option <?php echo isset($gender) && $gender == 'Male' ? "selected" : '' ?>>Male</option>
+						<option <?php echo isset($gender) && $gender == 'Female' ? "selected" : '' ?>>Female</option>
 					</select>
 				</div>
 				<div class="col-md-4">
 					<label for="" class="control-label">Email</label>
-					<input type="email" id="email" class="form-control" name="email" required=""
+					<input type="email" class="form-control" name="email" required=""
 						value="<?php echo isset($email) ? $email : '' ?>">
 				</div>
 				<div class="col-md-4">
 					<label for="" class="control-label">Contact</label>
-					<input type="text" class="form-control" id="contact" name="contact" required=""
+					<input type="text" class="form-control" name="contact" required=""
 						value="<?php echo isset($contact) ? $contact : '' ?>">
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col-md-10">
 					<label for="" class="control-label">Address</label>
-					<textarea name="address" id="address" cols="30" rows="3" required
+					<textarea name="address" id="" cols="30" rows="3" required
 						class="form-control"><?php echo isset($address) ? $address : '' ?></textarea>
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col-md-10">
 					<label for="" class="control-label">Cover Letter</label>
-					<textarea name="cover_letter" id="cover_letter" cols="30" rows="3" placeholder="(Optional)"
+					<textarea name="cover_letter" id="" cols="30" rows="3" placeholder="(Optional)"
 						class="form-control"><?php echo isset($cover_letter) ? $cover_letter : '' ?></textarea>
 				</div>
 			</div>

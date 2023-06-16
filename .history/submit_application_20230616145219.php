@@ -8,13 +8,13 @@ foreach ($qry as $k => $v) {
 ?>
 <?php
 
-use phpmailer\PHPMailer;
-use phpmailer\SMTP;
-use phpmailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-require_once "phpmailer/src/PHPMailer.php";
-require_once "phpmailer/src/SMTP.php";
-require_once "phpmailer/src/Exception.php";
+require_once "PHPMailer/src/PHPMailer.php";
+require_once "PHPMailer/src/SMTP.php";
+require_once "PHPMailer/src/Exception.php";
 var_dump("Hello");
 $mail = new PHPMailer(true);
 

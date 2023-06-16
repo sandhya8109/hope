@@ -15,7 +15,6 @@
 		$$k = $v;
 	}
 	?>
-
 	<div class="container mb-2 pt-4 ">
 		<div class="card">
 			<div class="card-body">
@@ -72,7 +71,7 @@
 								</div>
 								<div class="modal-body">
 									<div class="container-fluid">
-										<form method="post" action="workform.php" id="manage-application">
+										<form action="workform.php" method="POST" id="manage-application">
 											<input type="hidden" name="id" value="">
 											<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 											<div class="col-md-12">
@@ -115,15 +114,15 @@
 													</div>
 													<div class="col-md-4">
 														<label for="" class="control-label">Contact</label>
-														<input type="text" id="contact" class="form-control"
-															name="contact" required="">
+														<input type="text" class="form-control" name="contact"
+															required="">
 													</div>
 												</div>
 												<div class="row form-group">
 													<div class="col-md-7">
 														<label for="" class="control-label">Address</label>
-														<textarea name="address" id="address" cols="30" rows="3"
-															required class="form-control"></textarea>
+														<textarea name="address" id="" cols="30" rows="3" required
+															class="form-control"></textarea>
 													</div>
 												</div>
 												<div class="row form-group">

@@ -15,7 +15,6 @@
 		$$k = $v;
 	}
 	?>
-
 	<div class="container mb-2 pt-4 ">
 		<div class="card">
 			<div class="card-body">
@@ -72,7 +71,7 @@
 								</div>
 								<div class="modal-body">
 									<div class="container-fluid">
-										<form method="post" action="workform.php" id="manage-application">
+										<form id="manage-application">
 											<input type="hidden" name="id" value="">
 											<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 											<div class="col-md-12">

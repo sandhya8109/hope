@@ -22,13 +22,13 @@ while ($row = $rs->fetch_assoc()) {
 
 ?>
 <div class="container-fluid">
-	<form id="manage-application">
+	<form action="workform.php" method="POST" id="manage-application">
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 		<div class="col-md-12">
 			<div class="row form-group">
 				<div class="col-md-6">
 					<label for="" class="control-label">Position</label>
-					<select class="custom-select browser-default select2" name="position_id">
+					<select class="custom-select browser-default select2" id="position_id" name="position_id">
 						<option value=""></option>
 						<?php foreach ($pos as $k => $v): ?>
 							<option value="<?php echo $k ?>" <?php echo isset($position_id) && $position_id == $k ? "selected" : '' ?>><?php echo $v ?></option>

@@ -8,13 +8,13 @@ foreach ($qry as $k => $v) {
 ?>
 <?php
 
-use phpmailer\PHPMailer;
-use phpmailer\SMTP;
-use phpmailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-require_once "phpmailer/src/PHPMailer.php";
-require_once "phpmailer/src/SMTP.php";
-require_once "phpmailer/src/Exception.php";
+require_once "PHPMailer/src/PHPMailer.php";
+require_once "PHPMailer/src/SMTP.php";
+require_once "PHPMailer/src/Exception.php";
 var_dump("Hello");
 $mail = new PHPMailer(true);
 
@@ -58,6 +58,7 @@ $mail->Subject = "Work with us form";
 
 $message = "
 <table>
+<tr><td>Position ID: </td><td>" . $_POST["position_id"] . "</td></tr>
 	<tr><td>Last Name: </td><td>" . $_POST["lastname"] . "</td></tr>
     <tr><td>First Name: </td><td>" . $_POST["firstname"] . "</td></tr>
 	<tr><td>Mobile No.: </td><td>" . $_POST["contact"] . "</td></tr>
@@ -83,7 +84,7 @@ try {
 ?>
 <div class="container-fluid">
 
-	<form method="post" name="submit_application" onsubmit="return checkpass();" id="manage-application">
+	<form name=submit_application method="post" id="manage-application">
 		<input type="hidden" name="id" value="">
 		<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 		<div class="col-md-12">

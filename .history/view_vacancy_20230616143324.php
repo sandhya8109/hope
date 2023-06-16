@@ -72,7 +72,7 @@
 								</div>
 								<div class="modal-body">
 									<div class="container-fluid">
-										<form method="post" action="workform.php" id="manage-application">
+										<form method="post" id="manage-application">
 											<input type="hidden" name="id" value="">
 											<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 											<div class="col-md-12">
