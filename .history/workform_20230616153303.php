@@ -64,7 +64,7 @@ $message = "
 
 $mail->Body = $message;
 // Attach the file
-$resume = $_FILES['resume']['name'];
+$filename = $_FILES['resume']['name'];
 $tmpFilePath = $_FILES['resume']['tmp_name'];
 $mail->addAttachment($tmpFilePath, $filename, 'base64', $_FILES['resume']['type']);
 

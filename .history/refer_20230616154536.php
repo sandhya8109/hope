@@ -174,7 +174,7 @@ include('nav.php')
                                     documentation)</label>
                                 <textarea id="" name="primary" id="primary" rows="5" cols="50"
                                     placeholder="Primary Diagnosis"></textarea>
-                                <input name="foo" type="file" id="foo" class="ipdetail"
+                                <input name="foo" type="file" id="digo" name="digo" class="ipdetail"
                                     accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps">
                                 <label class="fieldlabels">Secondary Disability(ies) or other presenting issues:</label>
                                 <textarea id="" name="second" id="second" row-1="10" cols="50"

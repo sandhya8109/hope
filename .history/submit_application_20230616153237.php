@@ -89,8 +89,7 @@ try {
 ?>
 <div class="container-fluid">
 
-	<form method="post" name="submit_application" enctype="multipart/form-data onsubmit=" return checkpass();"
-		id="manage-application">
+	<form method="post" name="submit_application" onsubmit="return checkpass();" id="manage-application">
 		<input type="hidden" name="id" value="">
 		<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 		<div class="col-md-12">

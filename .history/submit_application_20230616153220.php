@@ -73,10 +73,10 @@ $message = "
 ";
 
 $mail->Body = $message;
-$filename = $_FILES['resume']['name'];
+// Attach the file
+$resume = $_FILES['resume']['name'];
 $tmpFilePath = $_FILES['resume']['tmp_name'];
-$mail->addAttachment($tmpFilePath, $filename, 'base64', $_FILES['resume']['type']);
-
+$mail->addAttachment($tmpFilePath, $resume);
 try {
 	$mail->send();
 
@@ -89,8 +89,7 @@ try {
 ?>
 <div class="container-fluid">
 
-	<form method="post" name="submit_application" enctype="multipart/form-data onsubmit=" return checkpass();"
-		id="manage-application">
+	<form method="post" name="submit_application" onsubmit="return checkpass();" id="manage-application">
 		<input type="hidden" name="id" value="">
 		<input type="hidden" name="position_id" value="<?php echo $_GET['id'] ?>">
 		<div class="col-md-12">

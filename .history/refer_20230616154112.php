@@ -68,7 +68,7 @@ include('nav.php')
             <div class="row justify-content-center">
                 <div class="card px-0 pt-4 pb-0 mt-3 mb-3 justify-content-center">
                     <p class="text-center">Fill all the fields to go to next step.</p>
-                    <form action="referalsend.php" method="POST" id="msform" enctype="multipart/form-data" class="
+                    <form action="referalsend.php" method="POST" id="msform" enctype="multipart/form-data class="
                         justify-content-center mb-4">
                         <!-- progressbar -->
                         <ul id="progressbar">
@@ -174,7 +174,7 @@ include('nav.php')
                                     documentation)</label>
                                 <textarea id="" name="primary" id="primary" rows="5" cols="50"
                                     placeholder="Primary Diagnosis"></textarea>
-                                <input name="foo" type="file" id="foo" class="ipdetail"
+                                <input name="foo" type="file" class="ipdetail"
                                     accept="image/jpeg,image/gif,image/png,application/pdf,image/x-eps">
                                 <label class="fieldlabels">Secondary Disability(ies) or other presenting issues:</label>
                                 <textarea id="" name="second" id="second" row-1="10" cols="50"

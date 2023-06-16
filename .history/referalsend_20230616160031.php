@@ -45,7 +45,7 @@ $mail->FromName = "USER";
 $mail->addAddress("chelibeti7@gmail.com", "Chelibeti");
 
 $mail->isHTML(true);
-$mail->Subject = "Referral Form Email";
+$mail->Subject = "Referal Form Email";
 
 $message = "
 <table>

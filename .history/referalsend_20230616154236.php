@@ -45,7 +45,7 @@ $mail->FromName = "USER";
 $mail->addAddress("chelibeti7@gmail.com", "Chelibeti");
 
 $mail->isHTML(true);
-$mail->Subject = "Referral Form Email";
+$mail->Subject = "Contact Form Email";
 
 $message = "
 <table>
@@ -121,18 +121,12 @@ $message = "
     <tr><td>Coordinator of Supports: Email: </td><td>" . $_POST["E"] . "</td></tr>
     <tr><td>Coordinator of Supports: Postal Address: </td><td>" . $_POST["P"] . "</td></tr>
     <tr><td>Coordinator of Supports: Signature Photo:: </td><td>" . $_POST["SP"] . "</td></tr>
-    <tr><td>Primary Diagnosis Document: </td><td>" . $_FILES["foo"]["name"] . "</td></tr>
+    <tr><td>Primary Diagnosis Document: </td><td>" . $_FILES["img"]["name"] . "</td></tr>
 
     </table>
 ";
 
 $mail->Body = $message;
-
-// Attach the file
-$foo = $_FILES['foo']['name'];
-$tmpFilePath = $_FILES['foo']['tmp_name'];
-$mail->addAttachment($tmpFilePath, $filename, 'base64', 'application/pdf');
-
 
 try {
     $mail->send();

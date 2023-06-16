@@ -57,16 +57,11 @@ $message = "
 	<tr><td>Email: </td><td>" . $_POST["email"] . "</td></tr>
 	<tr><td>Address: </td><td>" . $_POST["address"] . "</td></tr>
     <tr><td>Cover Letter: </td><td>" . $_POST["cover_letter"] . "</td></tr>
-    <tr><td>Document: </td><td>" . $_FILES["resume"]["name"] . "</td></tr>
-  
+    <tr><td>Document: </td><td>" . $_POST["resume"] . "</td></tr>
 </table>
 ";
 
 $mail->Body = $message;
-// Attach the file
-$resume = $_FILES['resume']['name'];
-$tmpFilePath = $_FILES['resume']['tmp_name'];
-$mail->addAttachment($tmpFilePath, $filename, 'base64', $_FILES['resume']['type']);
 
 try {
     $mail->send();
