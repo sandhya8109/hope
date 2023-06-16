@@ -142,15 +142,15 @@ include('nav.php')
                                                     value="Aboriginal" />
                                                 <label>Aboriginal </label>
                                             </div>
-                                            <div class="d-flex"><input type="radio" name="t" id="t"
+                                            <div class="d-flex"><input type="radio" name="a" id="t"
                                                     value="Torres Strait" />
                                                 <label>Torres Strait </label>
                                             </div>
-                                            <div class="d-flex"><input type="radio" name="b" id="b"
+                                            <div class="d-flex"><input type="radio" name="a" id="b"
                                                     value="Torres Strait & Aboriginal" />
                                                 <label>Both </label>
                                             </div>
-                                            <div class="d-flex"><input type="radio" name="n" id="n"
+                                            <div class="d-flex"><input type="radio" name="a" id="n"
                                                     value="neither Torres Strait & Aboriginal" />
                                                 <label>Neither </label>
                                             </div>
@@ -160,10 +160,10 @@ include('nav.php')
                                         <label class="fieldlabels">Has the Participant consented to this referral?
                                         </label>
                                         <div class="radio">
-                                            <div class="d-flex"><input type="radio" name="y" id="y" />
+                                            <div class="d-flex"><input type="radio" name="y" id="y" value="yes"/>
                                                 <label>Yes </label>
                                             </div>
-                                            <div class="d-flex"><input type="radio" name="n" id="n" />
+                                            <div class="d-flex"><input type="radio" name="y" id="n" value="no"/>
                                                 <label>No </label>
                                             </div>
                                         </div>
@@ -232,26 +232,26 @@ include('nav.php')
                                     placeholder=""></textarea>
                                 <label class="fieldlabels">Does Participant have a current Behaviour Support
                                     Plan(PBSP)?</label>
-                                <div class="checkbox">
-                                    <input type="checkbox" value="Yes" name="pbspy" />
+                                <div class="radio">
+                                    <input type="radio" value="Yes" name="pbspy" id="pbsby"/>
                                     <label>Yes </label>
                                     <div class="flex-wrap">
                                         <label style="padding-right: 3rem;">If Yes, Has a PBSB review been
                                             requested?</label>
-                                        <input type="checkbox" value="Yes" name="pbspy" />
+                                        <input type="radio" value="Yes" name="pbspz" id="pbspz" />
                                         <label style="padding-right: 3rem;">Yes </label>
-                                        <input type="checkbox" value="Yes" name="pbspy" />
+                                        <input type="radio" value="No" name="pbspz" id="pbspz" />
                                         <label>No </label>
                                     </div>
 
-                                    <input type="checkbox" value="No" name="pbspn" />
+                                    <input type="radio" value="No" name="pbspy" id="pbsby"/>
                                     <label style="padding-top:2rem">No </label>
                                     <div class="flex-wrap">
                                         <label style="padding-right: 3rem;" class="flex-wrap">If No, Is PBSB required
                                             for further process?</label>
-                                        <input type="checkbox" value="Yes" name="pbspy" />
+                                        <input type="radio" value="Yes" name="pbspz" id="pbspz"/>
                                         <label style="padding-right: 3rem;">Yes </label>
-                                        <input type="checkbox" value="Yes" name="pbspy" />
+                                        <input type="radio" value="No" name="pbspz" id="pbspz"/>
                                         <label>No </label>
                                     </div>
 
@@ -260,7 +260,7 @@ include('nav.php')
                                 <div class="checkbox">
                                     <div class="row">
                                         <div class="col-sm-12 col-md-6 col-lg-6">
-                                            <div class="d-flex"><input type="checkbox" id="pbsp" name="pbsp" />
+                                            <div class="d-flex"><input type="checkbox" id="pbsp" name="pbsp" value="PBSP"/>
                                                 <label>PBSP </label>
                                             </div>
                                             <div class="d-flex"><input type="checkbox" name="ndis" id="ndis"
@@ -452,19 +452,19 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <label class="fieldlabels">NDIS Plan Approved?</label>
-                                <div class="checkbox">
+                                <div class="radio">
                                     <div class="d-flex">
-                                        <input type="checkbox" value="yes" name="ay" id="ay" />
+                                        <input type="radio" value="Yes" name="ay" id="ay" />
                                         <label>Yes </label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" value="Pending" name="ap" id="ap" />
+                                    <div class="d-flex"><input type="radio" value="Pending" name="ay" id="ap" />
                                         <label>Pending(waiting response) </label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" value="Not Commenced" name="nc"
+                                    <div class="d-flex"><input type="radio" value="Not Commenced" name="ay"
                                             id="nc" />
                                         <label>Not commenced </label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" value="Not applicable" name="an"
+                                    <div class="d-flex"><input type="radio" value="Not applicable" name="ay"
                                             id="an" />
                                         <label>Not Applicable </label>
                                     </div>
@@ -509,15 +509,15 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <label class="fieldlabels">Plan Management:</label>
-                                <div class="checkbox">
-                                    <div class="d-flex"><input type="checkbox" value="Agency Managed" name="AM"
+                                <div class="radio">
+                                    <div class="d-flex"><input type="radio" value="Agency Managed" name="AM"
                                             id="AM" />
                                         <label>Agency Managed </label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" value="Plan managed" name="PM" id="PM" />
+                                    <div class="d-flex"><input type="radio" value="Plan managed" name="AM" id="PM" />
                                         <label>Plan managed </label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" value="Self managed" name="SM" id="SM" />
+                                    <div class="d-flex"><input type="radio" value="Self managed" name="AM" id="SM" />
                                         <label>Self managed </label>
                                     </div>
                                 </div>
@@ -540,7 +540,7 @@ include('nav.php')
                                     </div>
                                     <div class="col-sm-12 col-md-6 col-lg-6">
                                         <label class="fieldlabels">Phone: </label>
-                                        <input type="phone" id="PMnn" name="PMnn" class="ipdetail"
+                                        <input type="number" id="PMnn" name="PMnn" class="ipdetail"
                                             placeholder="Phone" />
                                     </div>
                                 </div>
@@ -606,11 +606,11 @@ include('nav.php')
                                     </div>
                                 </div>
                                 <label class="fieldlabels">Relationship to Client:</label>
-                                <div class="checkbox">
-                                    <div class="d-flex"><input type="checkbox" name="G" id="G" value="Guardian" />
+                                <div class="radio">
+                                    <div class="d-flex"><input type="radio" name="G" id="G" value="Guardian" />
                                         <label>Guardian (completed above,no further details required)</label>
                                     </div>
-                                    <div class="d-flex"><input type="checkbox" name="C" id="C"
+                                    <div class="d-flex"><input type="radio" name="G" id="C"
                                             value="Coordinator of Supports" />
                                         <label>Coordinator of Supports (complete referrer details)</label>
                                     </div>
